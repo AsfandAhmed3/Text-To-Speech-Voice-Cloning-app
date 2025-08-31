@@ -1,0 +1,1851 @@
+2025-08-28 22:54:07,048 - src.voice_cloner - INFO - Initializing Coqui TTS with model: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-28 22:54:20,996 - src.voice_cloner - INFO - Initialized VoiceCloner with service: coqui
+2025-08-28 23:07:55,870 - src.tts_engine - ERROR - Failed to initialize Coqui TTS: ('Connection broken: IncompleteRead(83886080 bytes read, 28798487 more expected)', IncompleteRead(83886080 bytes read, 28798487 more expected))
+2025-08-28 23:07:56,296 - comtypes.client._code_cache - INFO - Could not import comtypes.gen, trying to create it.
+2025-08-28 23:07:56,296 - comtypes.client._code_cache - INFO - Created comtypes.gen directory: 'C:\Users\asfan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\comtypes\gen'
+2025-08-28 23:07:56,297 - comtypes.client._code_cache - INFO - Writing __init__.py file: 'C:\Users\asfan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\comtypes\gen\__init__.py'
+2025-08-28 23:07:56,309 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\asfan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\comtypes\gen'
+2025-08-28 23:07:56,341 - comtypes.client._generate - INFO - Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2025-08-28 23:07:56,364 - comtypes.client._generate - INFO - # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2025-08-28 23:07:56,432 - comtypes.client._generate - INFO - # Generating comtypes.gen.SpeechLib
+2025-08-28 23:07:56,442 - comtypes.client._generate - INFO - Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2025-08-28 23:07:56,444 - comtypes.client._generate - INFO - # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2025-08-28 23:07:56,448 - comtypes.client._generate - INFO - # Generating comtypes.gen.stdole
+2025-08-28 23:07:56,850 - src.tts_engine - INFO - Initialized pyttsx3 TTS engine
+2025-08-28 23:07:56,850 - src.tts_engine - INFO - Available TTS engines: ['pyttsx3']
+2025-08-28 23:07:56,850 - src.tts_engine - INFO - Preferred engine 'coqui' not available, using 'pyttsx3'
+2025-08-28 23:07:56,854 - src.voice_cloner - INFO - Initializing Coqui TTS with model: tts_models/multilingual/multi-dataset/xtts_v2
+2025-08-28 23:08:13,538 - src.voice_cloner - INFO - Initialized VoiceCloner with service: coqui
+2025-08-28 23:08:13,542 - main - INFO - PDF to Speech application initialized
+2025-08-28 23:25:22,858 - src.main - INFO - PDF to Speech application initialized
+2025-08-28 23:27:04,751 - main - INFO - PDF to Speech application initialized
+2025-08-28 23:29:51,552 - main - INFO - PDF to Speech application initialized
+2025-08-28 23:31:13,080 - src.main - INFO - PDF to Speech application initialized
+2025-08-28 23:31:13,081 - src.main - INFO - Processing PDF: data\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn.pdf
+2025-08-28 23:32:28,085 - src.main - INFO - PDF to Speech application initialized
+2025-08-28 23:32:28,085 - src.main - INFO - Processing PDF: test.pdf
+2025-08-28 23:33:00,826 - main - INFO - PDF to Speech application initialized
+2025-08-28 23:35:32,590 - main - INFO - PDF to Speech application initialized
+2025-08-28 23:46:17,826 - src.main - INFO - PDF to Speech application initialized
+2025-08-28 23:46:28,222 - main - INFO - PDF to Speech application initialized
+2025-08-29 00:00:31,415 - src.main - INFO - PDF to Speech application initialized
+2025-08-29 00:01:08,169 - src.main - INFO - PDF to Speech application initialized
+2025-08-29 00:01:42,440 - main - INFO - PDF to Speech application initialized
+2025-08-29 00:02:07,651 - main - INFO - Step 1: Extracting text from PDF
+2025-08-29 00:02:07,652 - main - INFO - Extracting text from PDF: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn.pdf
+2025-08-29 00:02:07,652 - main - INFO - Step 2: Generating speech with default voice
+2025-08-29 00:02:07,652 - main - INFO - Generating speech for text (length: 37 chars)
+2025-08-29 00:02:07,653 - main - INFO - Generated speech audio: output\default_voice\sample_audio.wav
+2025-08-29 00:02:07,653 - main - INFO - Generating speech for text (length: 37 chars)
+2025-08-29 00:02:07,655 - main - INFO - Generated speech audio: output\default_voice\sample_audio.wav
+2025-08-29 00:02:07,655 - main - INFO - Step 3: Cloning voice from samples
+2025-08-29 00:02:07,674 - main - WARNING - Invalid voice sample: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_sample_0_WhatsApp Audio 2025-08-28 at 23.39.03_df8cea63.waptt.opus - [WinError 2] The system cannot find the file specified
+2025-08-29 00:02:07,674 - main - ERROR - Workflow error: No valid voice samples provided
+2025-08-29 00:05:34,342 - src.main - INFO - PDF to Speech application initialized
+2025-08-29 00:06:41,181 - main - INFO - PDF to Speech application initialized
+2025-08-29 00:07:02,105 - main - INFO - Validating audio file: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_sample_0_WhatsApp_Audio_2025-08-28_at_23.39.03_df8cea63.waptt.opus
+2025-08-29 00:07:02,105 - main - INFO - Audio file exists and has size: 94944 bytes
+2025-08-29 00:07:02,105 - main - INFO - Attempting to load audio file with AudioSegment...
+2025-08-29 00:07:02,131 - main - ERROR - Error validating audio file C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_sample_0_WhatsApp_Audio_2025-08-28_at_23.39.03_df8cea63.waptt.opus: [WinError 2] The system cannot find the file specified
+2025-08-29 00:07:05,097 - main - INFO - Validating audio file: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_sample_0_WhatsApp_Audio_2025-08-28_at_23.39.03_df8cea63.waptt.opus
+2025-08-29 00:07:05,098 - main - INFO - Audio file exists and has size: 94944 bytes
+2025-08-29 00:07:05,098 - main - INFO - Attempting to load audio file with AudioSegment...
+2025-08-29 00:07:05,121 - main - ERROR - Error validating audio file C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_sample_0_WhatsApp_Audio_2025-08-28_at_23.39.03_df8cea63.waptt.opus: [WinError 2] The system cannot find the file specified
+2025-08-29 00:07:05,127 - main - INFO - Step 1: Extracting text from PDF
+2025-08-29 00:07:05,128 - main - INFO - Extracting text from PDF: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn.pdf
+2025-08-29 00:07:05,128 - main - INFO - Step 2: Generating speech with default voice
+2025-08-29 00:07:05,128 - main - INFO - Generating speech for text (length: 37 chars)
+2025-08-29 00:07:05,130 - main - INFO - Generated speech audio: output\default_voice\sample_audio.wav
+2025-08-29 00:07:05,130 - main - INFO - Generating speech for text (length: 37 chars)
+2025-08-29 00:07:05,131 - main - INFO - Generated speech audio: output\default_voice\sample_audio.wav
+2025-08-29 00:07:05,131 - main - INFO - Step 3: Cloning voice from samples
+2025-08-29 00:07:05,132 - main - INFO - Validating audio file: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_sample_0_WhatsApp_Audio_2025-08-28_at_23.39.03_df8cea63.waptt.opus
+2025-08-29 00:07:05,132 - main - INFO - Audio file exists and has size: 94944 bytes
+2025-08-29 00:07:05,132 - main - INFO - Attempting to load audio file with AudioSegment...
+2025-08-29 00:07:05,149 - main - ERROR - Error validating audio file C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_sample_0_WhatsApp_Audio_2025-08-28_at_23.39.03_df8cea63.waptt.opus: [WinError 2] The system cannot find the file specified
+2025-08-29 00:07:05,159 - main - INFO - Step 4: Generating speech with cloned voice
+2025-08-29 00:07:05,160 - main - ERROR - Workflow error: cannot access local variable 'voice_cloning_result' where it is not associated with a value
+2025-08-29 00:10:50,136 - src.main - INFO - PDF to Speech application initialized
+2025-08-29 00:10:50,137 - src.main - INFO - Step 1: Extracting text from PDF
+2025-08-29 00:10:50,137 - src.main - INFO - Extracting text from PDF: test.pdf
+2025-08-29 00:10:50,137 - src.main - INFO - Step 2: Generating speech with default voice
+2025-08-29 00:10:50,137 - src.main - INFO - Generating speech for text (length: 37 chars)
+2025-08-29 00:10:50,137 - src.main - INFO - Generated speech audio: output\default_voice\sample_audio.wav
+2025-08-29 00:10:50,138 - src.main - INFO - Generating speech for text (length: 37 chars)
+2025-08-29 00:10:50,138 - src.main - INFO - Generated speech audio: output\default_voice\sample_audio.wav
+2025-08-29 00:10:50,138 - src.main - INFO - No voice samples provided, skipping voice cloning
+2025-08-29 00:12:21,665 - main - INFO - PDF to Speech application initialized
+2025-08-29 00:12:38,458 - main - INFO - Validating audio file: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_sample_0_WhatsApp_Audio_2025-08-28_at_23.39.03_df8cea63.waptt.opus
+2025-08-29 00:12:38,459 - main - INFO - Audio file exists and has size: 94944 bytes
+2025-08-29 00:12:38,459 - main - INFO - Attempting to load audio file with AudioSegment...
+2025-08-29 00:12:38,481 - main - ERROR - Error validating audio file C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_sample_0_WhatsApp_Audio_2025-08-28_at_23.39.03_df8cea63.waptt.opus: [WinError 2] The system cannot find the file specified
+2025-08-29 00:12:42,462 - main - INFO - Validating audio file: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_sample_0_WhatsApp_Audio_2025-08-28_at_23.39.03_df8cea63.waptt.opus
+2025-08-29 00:12:42,462 - main - INFO - Audio file exists and has size: 94944 bytes
+2025-08-29 00:12:42,463 - main - INFO - Attempting to load audio file with AudioSegment...
+2025-08-29 00:12:42,488 - main - ERROR - Error validating audio file C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_sample_0_WhatsApp_Audio_2025-08-28_at_23.39.03_df8cea63.waptt.opus: [WinError 2] The system cannot find the file specified
+2025-08-29 00:12:42,494 - main - INFO - Step 1: Extracting text from PDF
+2025-08-29 00:12:42,495 - main - INFO - Extracting text from PDF: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn.pdf
+2025-08-29 00:12:42,495 - main - INFO - Step 2: Generating speech with default voice
+2025-08-29 00:12:42,495 - main - INFO - Generating speech for text (length: 37 chars)
+2025-08-29 00:12:42,497 - main - INFO - Generated speech audio: output\default_voice\sample_audio.wav
+2025-08-29 00:12:42,498 - main - INFO - Generating speech for text (length: 37 chars)
+2025-08-29 00:12:42,499 - main - INFO - Generated speech audio: output\default_voice\sample_audio.wav
+2025-08-29 00:12:42,499 - main - INFO - Step 3: Cloning voice from samples
+2025-08-29 00:12:42,499 - main - INFO - Validating audio file: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_sample_0_WhatsApp_Audio_2025-08-28_at_23.39.03_df8cea63.waptt.opus
+2025-08-29 00:12:42,499 - main - INFO - Audio file exists and has size: 94944 bytes
+2025-08-29 00:12:42,500 - main - INFO - Attempting to load audio file with AudioSegment...
+2025-08-29 00:12:42,518 - main - ERROR - Error validating audio file C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_sample_0_WhatsApp_Audio_2025-08-28_at_23.39.03_df8cea63.waptt.opus: [WinError 2] The system cannot find the file specified
+2025-08-29 00:12:42,536 - __main__ - ERROR - Streamlit processing error: 'samples_used'
+2025-08-31 14:55:41,119 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 14:57:04,315 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 14:57:04,315 - src.main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 14:57:04,316 - src.main - INFO - Extracting text from PDF...
+2025-08-31 14:57:04,316 - src.main - INFO - Converting text to speech...
+2025-08-31 14:57:04,317 - src.main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 14:57:17,911 - main - INFO - PDF to Speech application initialized
+2025-08-31 14:57:32,315 - main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 14:57:32,315 - main - INFO - Extracting text from PDF...
+2025-08-31 14:57:32,315 - main - INFO - Converting text to speech...
+2025-08-31 14:57:32,316 - main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 15:00:47,936 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 15:00:47,936 - src.main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 15:00:47,936 - src.main - INFO - Extracting text from PDF...
+2025-08-31 15:00:47,936 - src.main - INFO - Converting text to speech...
+2025-08-31 15:00:51,361 - src.main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 15:00:59,420 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 15:00:59,421 - src.main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 15:00:59,421 - src.main - INFO - Extracting text from PDF...
+2025-08-31 15:00:59,421 - src.main - INFO - Converting text to speech...
+2025-08-31 15:01:02,913 - src.main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 15:01:22,312 - main - INFO - PDF to Speech application initialized
+2025-08-31 15:01:30,794 - main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 15:01:30,795 - main - INFO - Extracting text from PDF...
+2025-08-31 15:01:30,795 - main - INFO - Converting text to speech...
+2025-08-31 15:01:36,216 - main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 15:04:18,352 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 15:04:18,352 - src.main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 15:04:18,352 - src.main - INFO - Extracting text from PDF...
+2025-08-31 15:04:18,795 - src.main - INFO - PDF has 440 pages
+2025-08-31 15:04:18,797 - src.main - INFO - Processed page 1/440
+2025-08-31 15:04:18,891 - src.main - INFO - Processed page 11/440
+2025-08-31 15:04:19,209 - src.main - INFO - Processed page 21/440
+2025-08-31 15:04:19,516 - src.main - INFO - Processed page 31/440
+2025-08-31 15:04:19,784 - src.main - INFO - Processed page 41/440
+2025-08-31 15:04:20,054 - src.main - INFO - Processed page 51/440
+2025-08-31 15:04:20,266 - src.main - INFO - Processed page 61/440
+2025-08-31 15:04:20,443 - src.main - INFO - Processed page 71/440
+2025-08-31 15:04:20,705 - src.main - INFO - Processed page 81/440
+2025-08-31 15:04:20,939 - src.main - INFO - Processed page 91/440
+2025-08-31 15:04:21,289 - src.main - INFO - Processed page 101/440
+2025-08-31 15:04:21,542 - src.main - INFO - Processed page 111/440
+2025-08-31 15:04:21,834 - src.main - INFO - Processed page 121/440
+2025-08-31 15:04:22,085 - src.main - INFO - Processed page 131/440
+2025-08-31 15:04:22,439 - src.main - INFO - Processed page 141/440
+2025-08-31 15:04:22,703 - src.main - INFO - Processed page 151/440
+2025-08-31 15:04:22,972 - src.main - INFO - Processed page 161/440
+2025-08-31 15:04:23,216 - src.main - INFO - Processed page 171/440
+2025-08-31 15:04:23,472 - src.main - INFO - Processed page 181/440
+2025-08-31 15:04:23,816 - src.main - INFO - Processed page 191/440
+2025-08-31 15:04:24,143 - src.main - INFO - Processed page 201/440
+2025-08-31 15:04:24,396 - src.main - INFO - Processed page 211/440
+2025-08-31 15:04:24,620 - src.main - INFO - Processed page 221/440
+2025-08-31 15:04:24,892 - src.main - INFO - Processed page 231/440
+2025-08-31 15:04:25,203 - src.main - INFO - Processed page 241/440
+2025-08-31 15:04:25,397 - src.main - INFO - Processed page 251/440
+2025-08-31 15:04:25,601 - src.main - INFO - Processed page 261/440
+2025-08-31 15:04:25,822 - src.main - INFO - Processed page 271/440
+2025-08-31 15:04:26,076 - src.main - INFO - Processed page 281/440
+2025-08-31 15:04:26,327 - src.main - INFO - Processed page 291/440
+2025-08-31 15:04:26,604 - src.main - INFO - Processed page 301/440
+2025-08-31 15:04:26,822 - src.main - INFO - Processed page 311/440
+2025-08-31 15:04:27,170 - src.main - INFO - Processed page 321/440
+2025-08-31 15:04:27,450 - src.main - INFO - Processed page 331/440
+2025-08-31 15:04:27,757 - src.main - INFO - Processed page 341/440
+2025-08-31 15:04:28,115 - src.main - INFO - Processed page 351/440
+2025-08-31 15:04:28,332 - src.main - INFO - Processed page 361/440
+2025-08-31 15:04:28,565 - src.main - INFO - Processed page 371/440
+2025-08-31 15:04:28,788 - src.main - INFO - Processed page 381/440
+2025-08-31 15:04:29,044 - src.main - INFO - Processed page 391/440
+2025-08-31 15:04:29,425 - src.main - INFO - Processed page 401/440
+2025-08-31 15:04:29,701 - src.main - INFO - Processed page 411/440
+2025-08-31 15:04:29,985 - src.main - INFO - Processed page 421/440
+2025-08-31 15:04:30,273 - src.main - INFO - Processed page 431/440
+2025-08-31 15:04:30,607 - src.main - INFO - Extracted 737969 characters from PDF
+2025-08-31 15:04:30,608 - src.main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 15:05:09,190 - src.main - INFO - Initializing Coqui TTS model...
+2025-08-31 15:08:10,702 - src.main - INFO - Converting 1476 text chunks to speech...
+2025-08-31 15:08:10,702 - src.main - INFO - Converting first chunk to audio...
+2025-08-31 15:08:28,404 - src.main - INFO - Generated audio file: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 15:08:28,410 - src.main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 15:09:39,821 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 15:09:39,821 - src.main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 15:09:39,821 - src.main - INFO - Extracting text from PDF...
+2025-08-31 15:09:39,927 - src.main - INFO - PDF has 440 pages
+2025-08-31 15:09:39,927 - src.main - INFO - Processed page 1/440
+2025-08-31 15:09:40,014 - src.main - INFO - Processed page 11/440
+2025-08-31 15:09:40,362 - src.main - INFO - Processed page 21/440
+2025-08-31 15:09:40,677 - src.main - INFO - Processed page 31/440
+2025-08-31 15:09:40,930 - src.main - INFO - Processed page 41/440
+2025-08-31 15:09:41,192 - src.main - INFO - Processed page 51/440
+2025-08-31 15:09:41,396 - src.main - INFO - Processed page 61/440
+2025-08-31 15:09:41,580 - src.main - INFO - Processed page 71/440
+2025-08-31 15:09:41,853 - src.main - INFO - Processed page 81/440
+2025-08-31 15:09:42,114 - src.main - INFO - Processed page 91/440
+2025-08-31 15:09:42,450 - src.main - INFO - Processed page 101/440
+2025-08-31 15:09:42,706 - src.main - INFO - Processed page 111/440
+2025-08-31 15:09:42,991 - src.main - INFO - Processed page 121/440
+2025-08-31 15:09:43,230 - src.main - INFO - Processed page 131/440
+2025-08-31 15:09:43,561 - src.main - INFO - Processed page 141/440
+2025-08-31 15:09:43,808 - src.main - INFO - Processed page 151/440
+2025-08-31 15:09:44,111 - src.main - INFO - Processed page 161/440
+2025-08-31 15:09:44,367 - src.main - INFO - Processed page 171/440
+2025-08-31 15:09:44,640 - src.main - INFO - Processed page 181/440
+2025-08-31 15:09:44,965 - src.main - INFO - Processed page 191/440
+2025-08-31 15:09:45,284 - src.main - INFO - Processed page 201/440
+2025-08-31 15:09:45,557 - src.main - INFO - Processed page 211/440
+2025-08-31 15:09:45,789 - src.main - INFO - Processed page 221/440
+2025-08-31 15:09:46,062 - src.main - INFO - Processed page 231/440
+2025-08-31 15:09:46,364 - src.main - INFO - Processed page 241/440
+2025-08-31 15:09:46,580 - src.main - INFO - Processed page 251/440
+2025-08-31 15:09:46,786 - src.main - INFO - Processed page 261/440
+2025-08-31 15:09:47,011 - src.main - INFO - Processed page 271/440
+2025-08-31 15:09:47,272 - src.main - INFO - Processed page 281/440
+2025-08-31 15:09:47,525 - src.main - INFO - Processed page 291/440
+2025-08-31 15:09:47,807 - src.main - INFO - Processed page 301/440
+2025-08-31 15:09:48,026 - src.main - INFO - Processed page 311/440
+2025-08-31 15:09:48,386 - src.main - INFO - Processed page 321/440
+2025-08-31 15:09:48,694 - src.main - INFO - Processed page 331/440
+2025-08-31 15:09:49,020 - src.main - INFO - Processed page 341/440
+2025-08-31 15:09:49,389 - src.main - INFO - Processed page 351/440
+2025-08-31 15:09:49,631 - src.main - INFO - Processed page 361/440
+2025-08-31 15:09:49,896 - src.main - INFO - Processed page 371/440
+2025-08-31 15:09:50,141 - src.main - INFO - Processed page 381/440
+2025-08-31 15:09:50,419 - src.main - INFO - Processed page 391/440
+2025-08-31 15:09:50,868 - src.main - INFO - Processed page 401/440
+2025-08-31 15:09:51,193 - src.main - INFO - Processed page 411/440
+2025-08-31 15:09:51,504 - src.main - INFO - Processed page 421/440
+2025-08-31 15:09:51,794 - src.main - INFO - Processed page 431/440
+2025-08-31 15:09:52,151 - src.main - INFO - Extracted 737969 characters from PDF
+2025-08-31 15:09:52,151 - src.main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 15:10:00,871 - src.main - INFO - Initializing Coqui TTS model...
+2025-08-31 15:10:01,753 - src.main - INFO - Converting 1476 text chunks to speech...
+2025-08-31 15:10:01,754 - src.main - INFO - Processing 5 chunks for demo (increase for full book)
+2025-08-31 15:10:01,754 - src.main - INFO - Converting chunk 1/5...
+2025-08-31 15:10:20,907 - src.main - INFO - Converting chunk 2/5...
+2025-08-31 15:10:48,514 - src.main - INFO - Converting chunk 3/5...
+2025-08-31 15:11:08,228 - src.main - INFO - Converting chunk 4/5...
+2025-08-31 15:14:47,491 - src.main - INFO - Converting chunk 5/5...
+2025-08-31 15:20:54,542 - src.main - INFO - Combining 5 audio segments...
+2025-08-31 15:20:54,542 - src.main - INFO - Adding segment 1/5
+2025-08-31 15:20:54,553 - src.main - INFO - Adding segment 2/5
+2025-08-31 15:20:54,565 - src.main - INFO - Adding segment 3/5
+2025-08-31 15:20:54,575 - src.main - INFO - Adding segment 4/5
+2025-08-31 15:20:54,613 - src.main - INFO - Adding segment 5/5
+2025-08-31 15:20:54,707 - src.main - INFO - Combined audio saved: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 15:20:54,723 - src.main - INFO - Generated combined audio file: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 15:20:54,729 - src.main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 15:23:34,700 - main - INFO - PDF to Speech application initialized
+2025-08-31 15:23:42,753 - main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 15:23:42,753 - main - INFO - Extracting text from PDF...
+2025-08-31 15:23:42,884 - main - INFO - PDF has 440 pages
+2025-08-31 15:23:42,884 - main - INFO - Processed page 1/440
+2025-08-31 15:23:43,000 - main - INFO - Processed page 11/440
+2025-08-31 15:23:43,443 - main - INFO - Processed page 21/440
+2025-08-31 15:23:43,908 - main - INFO - Processed page 31/440
+2025-08-31 15:23:44,261 - main - INFO - Processed page 41/440
+2025-08-31 15:23:44,625 - main - INFO - Processed page 51/440
+2025-08-31 15:23:44,922 - main - INFO - Processed page 61/440
+2025-08-31 15:23:45,162 - main - INFO - Processed page 71/440
+2025-08-31 15:23:45,532 - main - INFO - Processed page 81/440
+2025-08-31 15:23:45,876 - main - INFO - Processed page 91/440
+2025-08-31 15:23:46,375 - main - INFO - Processed page 101/440
+2025-08-31 15:23:46,735 - main - INFO - Processed page 111/440
+2025-08-31 15:23:47,137 - main - INFO - Processed page 121/440
+2025-08-31 15:23:47,495 - main - INFO - Processed page 131/440
+2025-08-31 15:23:47,966 - main - INFO - Processed page 141/440
+2025-08-31 15:23:48,326 - main - INFO - Processed page 151/440
+2025-08-31 15:23:48,752 - main - INFO - Processed page 161/440
+2025-08-31 15:23:49,106 - main - INFO - Processed page 171/440
+2025-08-31 15:23:49,484 - main - INFO - Processed page 181/440
+2025-08-31 15:23:49,953 - main - INFO - Processed page 191/440
+2025-08-31 15:23:50,404 - main - INFO - Processed page 201/440
+2025-08-31 15:23:50,790 - main - INFO - Processed page 211/440
+2025-08-31 15:23:51,120 - main - INFO - Processed page 221/440
+2025-08-31 15:23:51,495 - main - INFO - Processed page 231/440
+2025-08-31 15:23:51,948 - main - INFO - Processed page 241/440
+2025-08-31 15:23:52,202 - main - INFO - Processed page 251/440
+2025-08-31 15:23:52,510 - main - INFO - Processed page 261/440
+2025-08-31 15:23:52,836 - main - INFO - Processed page 271/440
+2025-08-31 15:23:53,197 - main - INFO - Processed page 281/440
+2025-08-31 15:23:53,603 - main - INFO - Processed page 291/440
+2025-08-31 15:23:53,995 - main - INFO - Processed page 301/440
+2025-08-31 15:23:54,324 - main - INFO - Processed page 311/440
+2025-08-31 15:23:54,804 - main - INFO - Processed page 321/440
+2025-08-31 15:23:55,234 - main - INFO - Processed page 331/440
+2025-08-31 15:23:55,681 - main - INFO - Processed page 341/440
+2025-08-31 15:23:56,170 - main - INFO - Processed page 351/440
+2025-08-31 15:23:56,491 - main - INFO - Processed page 361/440
+2025-08-31 15:23:56,844 - main - INFO - Processed page 371/440
+2025-08-31 15:23:57,178 - main - INFO - Processed page 381/440
+2025-08-31 15:23:57,563 - main - INFO - Processed page 391/440
+2025-08-31 15:23:58,158 - main - INFO - Processed page 401/440
+2025-08-31 15:23:58,587 - main - INFO - Processed page 411/440
+2025-08-31 15:23:58,999 - main - INFO - Processed page 421/440
+2025-08-31 15:23:59,399 - main - INFO - Processed page 431/440
+2025-08-31 15:23:59,889 - main - INFO - Extracted 737969 characters from PDF
+2025-08-31 15:23:59,890 - main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 15:24:13,296 - main - INFO - Initializing Coqui TTS model...
+2025-08-31 15:24:14,371 - main - INFO - Converting 1476 text chunks to speech...
+2025-08-31 15:24:14,372 - main - INFO - Processing 5 chunks for demo (increase for full book)
+2025-08-31 15:24:14,372 - main - INFO - Converting chunk 1/5...
+2025-08-31 15:24:34,989 - main - INFO - Converting chunk 2/5...
+2025-08-31 15:25:07,539 - main - INFO - Converting chunk 3/5...
+2025-08-31 15:25:30,674 - main - INFO - Converting chunk 4/5...
+2025-08-31 15:30:06,929 - main - INFO - Converting chunk 5/5...
+2025-08-31 15:36:10,054 - main - INFO - Combining 5 audio segments...
+2025-08-31 15:36:10,054 - main - INFO - Adding segment 1/5
+2025-08-31 15:36:10,063 - main - INFO - Adding segment 2/5
+2025-08-31 15:36:10,073 - main - INFO - Adding segment 3/5
+2025-08-31 15:36:10,083 - main - INFO - Adding segment 4/5
+2025-08-31 15:36:10,109 - main - INFO - Adding segment 5/5
+2025-08-31 15:36:10,213 - main - INFO - Combined audio saved: output\default_voice\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 15:36:10,227 - main - INFO - Generated combined audio file: output\default_voice\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 15:36:10,231 - main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 15:38:44,730 - main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 15:38:44,730 - main - INFO - Extracting text from PDF...
+2025-08-31 15:38:44,812 - main - INFO - PDF has 440 pages
+2025-08-31 15:38:44,813 - main - INFO - Processed page 1/440
+2025-08-31 15:38:44,947 - main - INFO - Processed page 11/440
+2025-08-31 15:38:45,481 - main - INFO - Processed page 21/440
+2025-08-31 15:38:46,204 - main - INFO - Processed page 31/440
+2025-08-31 15:38:46,813 - main - INFO - Processed page 41/440
+2025-08-31 15:38:47,240 - main - INFO - Processed page 51/440
+2025-08-31 15:38:47,568 - main - INFO - Processed page 61/440
+2025-08-31 15:38:48,058 - main - INFO - Processed page 71/440
+2025-08-31 15:38:48,481 - main - INFO - Processed page 81/440
+2025-08-31 15:38:49,052 - main - INFO - Processed page 91/440
+2025-08-31 15:38:49,633 - main - INFO - Processed page 101/440
+2025-08-31 15:38:50,246 - main - INFO - Processed page 111/440
+2025-08-31 15:38:50,729 - main - INFO - Processed page 121/440
+2025-08-31 15:38:51,346 - main - INFO - Processed page 131/440
+2025-08-31 15:38:52,061 - main - INFO - Processed page 141/440
+2025-08-31 15:38:52,475 - main - INFO - Processed page 151/440
+2025-08-31 15:38:52,924 - main - INFO - Processed page 161/440
+2025-08-31 15:38:53,504 - main - INFO - Processed page 171/440
+2025-08-31 15:38:53,946 - main - INFO - Processed page 181/440
+2025-08-31 15:38:54,683 - main - INFO - Processed page 191/440
+2025-08-31 15:38:55,401 - main - INFO - Processed page 201/440
+2025-08-31 15:38:55,835 - main - INFO - Processed page 211/440
+2025-08-31 15:38:56,417 - main - INFO - Processed page 221/440
+2025-08-31 15:38:56,871 - main - INFO - Processed page 231/440
+2025-08-31 15:38:57,552 - main - INFO - Processed page 241/440
+2025-08-31 15:38:57,899 - main - INFO - Processed page 251/440
+2025-08-31 15:38:58,478 - main - INFO - Processed page 261/440
+2025-08-31 15:38:58,947 - main - INFO - Processed page 271/440
+2025-08-31 15:38:59,330 - main - INFO - Processed page 281/440
+2025-08-31 15:38:59,965 - main - INFO - Processed page 291/440
+2025-08-31 15:39:00,474 - main - INFO - Processed page 301/440
+2025-08-31 15:39:01,040 - main - INFO - Processed page 311/440
+2025-08-31 15:39:01,607 - main - INFO - Processed page 321/440
+2025-08-31 15:39:02,269 - main - INFO - Processed page 331/440
+2025-08-31 15:39:02,960 - main - INFO - Processed page 341/440
+2025-08-31 15:39:03,558 - main - INFO - Processed page 351/440
+2025-08-31 15:39:04,120 - main - INFO - Processed page 361/440
+2025-08-31 15:39:04,535 - main - INFO - Processed page 371/440
+2025-08-31 15:39:04,913 - main - INFO - Processed page 381/440
+2025-08-31 15:39:05,534 - main - INFO - Processed page 391/440
+2025-08-31 15:39:06,377 - main - INFO - Processed page 401/440
+2025-08-31 15:39:06,882 - main - INFO - Processed page 411/440
+2025-08-31 15:39:07,529 - main - INFO - Processed page 421/440
+2025-08-31 15:39:08,003 - main - INFO - Processed page 431/440
+2025-08-31 15:39:08,728 - main - INFO - Extracted 737969 characters from PDF
+2025-08-31 15:39:08,728 - main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 15:39:08,728 - main - INFO - Initializing Coqui TTS model...
+2025-08-31 15:39:09,633 - main - INFO - Converting 1476 text chunks to speech...
+2025-08-31 15:39:09,633 - main - INFO - Processing 5 chunks for demo (increase for full book)
+2025-08-31 15:39:09,634 - main - INFO - Converting chunk 1/5...
+2025-08-31 15:39:40,344 - main - INFO - Converting chunk 2/5...
+2025-08-31 15:39:45,988 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 15:39:45,988 - main - INFO - Analyzing your voice sample...
+2025-08-31 15:39:45,989 - main - INFO - Cloning voice characteristics...
+2025-08-31 15:39:45,989 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 15:39:52,436 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 15:40:59,853 - main - INFO - Converting chunk 3/5...
+2025-08-31 15:41:20,450 - main - INFO - Converting chunk 4/5...
+2025-08-31 15:45:25,613 - asyncio - ERROR - Exception in callback _HandlerDelegate.execute.<locals>.<lambda>(<Task cancell...\web.py:1746>>) at C:\Users\asfan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\tornado\web.py:2438
+handle: <Handle _HandlerDelegate.execute.<locals>.<lambda>(<Task cancell...\web.py:1746>>) at C:\Users\asfan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\tornado\web.py:2438>
+Traceback (most recent call last):
+  File "C:\Users\asfan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\streamlit\web\bootstrap.py", line 347, in run
+    if asyncio.get_running_loop().is_running():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\asfan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\tornado\web.py", line 2438, in <lambda>
+    fut.add_done_callback(lambda f: f.result())
+                                    ^^^^^^^^^^
+  File "C:\Users\asfan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\tornado\web.py", line 1790, in _execute
+    result = await result
+             ^^^^^^^^^^^^
+  File "C:\Users\asfan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\tornado\web.py", line 2760, in get
+    await self.flush()
+asyncio.exceptions.CancelledError
+2025-08-31 15:45:44,831 - main - INFO - Converting chunk 5/5...
+2025-08-31 15:50:18,335 - main - INFO - Combining 5 audio segments...
+2025-08-31 15:50:18,335 - main - INFO - Adding segment 1/5
+2025-08-31 15:50:18,347 - main - INFO - Adding segment 2/5
+2025-08-31 15:50:18,361 - main - INFO - Adding segment 3/5
+2025-08-31 15:50:18,375 - main - INFO - Adding segment 4/5
+2025-08-31 15:50:18,406 - main - INFO - Adding segment 5/5
+2025-08-31 15:50:18,501 - main - INFO - Combined audio saved: output\default_voice\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 15:50:18,512 - main - INFO - Generated combined audio file: output\default_voice\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 15:50:18,516 - main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 15:53:19,438 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 15:53:19,439 - src.main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 15:53:19,439 - src.main - ERROR - STEP 2 FAILED: Voice sample file not found
+2025-08-31 15:53:54,539 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 15:53:54,539 - src.main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 15:53:54,540 - src.main - INFO - Analyzing your voice sample...
+2025-08-31 15:53:54,568 - src.main - INFO - Extracting voice characteristics...
+2025-08-31 15:53:54,569 - src.main - INFO - Found corresponding PDF: data\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn.pdf
+2025-08-31 15:53:54,686 - src.main - INFO - PDF has 440 pages
+2025-08-31 15:53:54,687 - src.main - INFO - Processed page 1/440
+2025-08-31 15:53:54,781 - src.main - INFO - Processed page 11/440
+2025-08-31 15:53:55,134 - src.main - INFO - Processed page 21/440
+2025-08-31 15:53:55,463 - src.main - INFO - Processed page 31/440
+2025-08-31 15:53:55,719 - src.main - INFO - Processed page 41/440
+2025-08-31 15:53:55,998 - src.main - INFO - Processed page 51/440
+2025-08-31 15:53:56,225 - src.main - INFO - Processed page 61/440
+2025-08-31 15:53:56,401 - src.main - INFO - Processed page 71/440
+2025-08-31 15:53:56,666 - src.main - INFO - Processed page 81/440
+2025-08-31 15:53:56,911 - src.main - INFO - Processed page 91/440
+2025-08-31 15:53:57,251 - src.main - INFO - Processed page 101/440
+2025-08-31 15:53:57,498 - src.main - INFO - Processed page 111/440
+2025-08-31 15:53:57,785 - src.main - INFO - Processed page 121/440
+2025-08-31 15:53:58,036 - src.main - INFO - Processed page 131/440
+2025-08-31 15:53:58,373 - src.main - INFO - Processed page 141/440
+2025-08-31 15:53:58,635 - src.main - INFO - Processed page 151/440
+2025-08-31 15:53:58,915 - src.main - INFO - Processed page 161/440
+2025-08-31 15:53:59,152 - src.main - INFO - Processed page 171/440
+2025-08-31 15:53:59,417 - src.main - INFO - Processed page 181/440
+2025-08-31 15:53:59,779 - src.main - INFO - Processed page 191/440
+2025-08-31 15:54:00,113 - src.main - INFO - Processed page 201/440
+2025-08-31 15:54:00,376 - src.main - INFO - Processed page 211/440
+2025-08-31 15:54:00,604 - src.main - INFO - Processed page 221/440
+2025-08-31 15:54:00,868 - src.main - INFO - Processed page 231/440
+2025-08-31 15:54:01,164 - src.main - INFO - Processed page 241/440
+2025-08-31 15:54:01,352 - src.main - INFO - Processed page 251/440
+2025-08-31 15:54:01,572 - src.main - INFO - Processed page 261/440
+2025-08-31 15:54:01,812 - src.main - INFO - Processed page 271/440
+2025-08-31 15:54:02,043 - src.main - INFO - Processed page 281/440
+2025-08-31 15:54:02,280 - src.main - INFO - Processed page 291/440
+2025-08-31 15:54:02,553 - src.main - INFO - Processed page 301/440
+2025-08-31 15:54:02,775 - src.main - INFO - Processed page 311/440
+2025-08-31 15:54:03,129 - src.main - INFO - Processed page 321/440
+2025-08-31 15:54:03,419 - src.main - INFO - Processed page 331/440
+2025-08-31 15:54:03,720 - src.main - INFO - Processed page 341/440
+2025-08-31 15:54:04,059 - src.main - INFO - Processed page 351/440
+2025-08-31 15:54:04,280 - src.main - INFO - Processed page 361/440
+2025-08-31 15:54:04,543 - src.main - INFO - Processed page 371/440
+2025-08-31 15:54:04,781 - src.main - INFO - Processed page 381/440
+2025-08-31 15:54:05,040 - src.main - INFO - Processed page 391/440
+2025-08-31 15:54:05,440 - src.main - INFO - Processed page 401/440
+2025-08-31 15:54:05,743 - src.main - INFO - Processed page 411/440
+2025-08-31 15:54:06,031 - src.main - INFO - Processed page 421/440
+2025-08-31 15:54:06,321 - src.main - INFO - Processed page 431/440
+2025-08-31 15:54:06,643 - src.main - INFO - Regenerating audio with cloned voice...
+2025-08-31 15:54:06,644 - src.main - INFO - Initializing speaker encoder for voice cloning...
+2025-08-31 16:03:37,763 - src.main - WARNING - Using Tacotron2 with speaker reference (limited cloning)
+2025-08-31 16:03:37,764 - src.main - INFO - Using fallback voice cloning method...
+2025-08-31 16:03:38,934 - src.main - ERROR - Fallback voice cloning failed: 'PDFToSpeechApp' object has no attribute '_split_text_for_tts'
+2025-08-31 16:03:38,934 - src.main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 16:06:29,467 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 16:06:29,467 - src.main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 16:06:29,467 - src.main - INFO - Analyzing your voice sample...
+2025-08-31 16:06:29,497 - src.main - INFO - Extracting voice characteristics...
+2025-08-31 16:06:29,498 - src.main - INFO - Found corresponding PDF: data\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn.pdf
+2025-08-31 16:06:29,609 - src.main - INFO - PDF has 440 pages
+2025-08-31 16:06:29,610 - src.main - INFO - Processed page 1/440
+2025-08-31 16:06:29,705 - src.main - INFO - Processed page 11/440
+2025-08-31 16:06:30,074 - src.main - INFO - Processed page 21/440
+2025-08-31 16:06:30,395 - src.main - INFO - Processed page 31/440
+2025-08-31 16:06:30,636 - src.main - INFO - Processed page 41/440
+2025-08-31 16:06:30,920 - src.main - INFO - Processed page 51/440
+2025-08-31 16:06:31,130 - src.main - INFO - Processed page 61/440
+2025-08-31 16:06:31,320 - src.main - INFO - Processed page 71/440
+2025-08-31 16:06:31,610 - src.main - INFO - Processed page 81/440
+2025-08-31 16:06:31,874 - src.main - INFO - Processed page 91/440
+2025-08-31 16:06:32,326 - src.main - INFO - Processed page 101/440
+2025-08-31 16:06:32,588 - src.main - INFO - Processed page 111/440
+2025-08-31 16:06:32,894 - src.main - INFO - Processed page 121/440
+2025-08-31 16:06:33,158 - src.main - INFO - Processed page 131/440
+2025-08-31 16:06:33,506 - src.main - INFO - Processed page 141/440
+2025-08-31 16:06:33,777 - src.main - INFO - Processed page 151/440
+2025-08-31 16:06:34,061 - src.main - INFO - Processed page 161/440
+2025-08-31 16:06:34,326 - src.main - INFO - Processed page 171/440
+2025-08-31 16:06:34,728 - src.main - INFO - Processed page 181/440
+2025-08-31 16:06:35,282 - src.main - INFO - Processed page 191/440
+2025-08-31 16:06:35,797 - src.main - INFO - Processed page 201/440
+2025-08-31 16:06:36,232 - src.main - INFO - Processed page 211/440
+2025-08-31 16:06:36,640 - src.main - INFO - Processed page 221/440
+2025-08-31 16:06:37,062 - src.main - INFO - Processed page 231/440
+2025-08-31 16:06:37,577 - src.main - INFO - Processed page 241/440
+2025-08-31 16:06:37,922 - src.main - INFO - Processed page 251/440
+2025-08-31 16:06:38,329 - src.main - INFO - Processed page 261/440
+2025-08-31 16:06:38,775 - src.main - INFO - Processed page 271/440
+2025-08-31 16:06:39,225 - src.main - INFO - Processed page 281/440
+2025-08-31 16:06:39,689 - src.main - INFO - Processed page 291/440
+2025-08-31 16:06:40,229 - src.main - INFO - Processed page 301/440
+2025-08-31 16:06:40,668 - src.main - INFO - Processed page 311/440
+2025-08-31 16:06:41,359 - src.main - INFO - Processed page 321/440
+2025-08-31 16:06:41,898 - src.main - INFO - Processed page 331/440
+2025-08-31 16:06:42,482 - src.main - INFO - Processed page 341/440
+2025-08-31 16:06:43,148 - src.main - INFO - Processed page 351/440
+2025-08-31 16:06:43,567 - src.main - INFO - Processed page 361/440
+2025-08-31 16:06:44,041 - src.main - INFO - Processed page 371/440
+2025-08-31 16:06:44,485 - src.main - INFO - Processed page 381/440
+2025-08-31 16:06:44,987 - src.main - INFO - Processed page 391/440
+2025-08-31 16:06:45,773 - src.main - INFO - Processed page 401/440
+2025-08-31 16:06:46,351 - src.main - INFO - Processed page 411/440
+2025-08-31 16:06:46,928 - src.main - INFO - Processed page 421/440
+2025-08-31 16:06:47,491 - src.main - INFO - Processed page 431/440
+2025-08-31 16:06:48,148 - src.main - INFO - Regenerating audio with cloned voice...
+2025-08-31 16:06:48,149 - src.main - INFO - Initializing speaker encoder for voice cloning...
+2025-08-31 16:12:11,741 - src.main - WARNING - Using Tacotron2 with speaker reference (limited cloning)
+2025-08-31 16:12:11,741 - src.main - INFO - Using fallback voice cloning method...
+2025-08-31 16:36:03,230 - src.main - WARNING - Failed to process chunk 10: Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+2025-08-31 16:37:15,971 - src.main - WARNING - Failed to process chunk 15: Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+2025-08-31 16:37:31,752 - src.main - WARNING - Failed to process chunk 16: Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+2025-08-31 16:40:59,642 - src.main - INFO - Combining 17 audio files with pydub...
+2025-08-31 16:40:59,654 - src.main - INFO - Added segment 1/17
+2025-08-31 16:40:59,663 - src.main - INFO - Added segment 2/17
+2025-08-31 16:40:59,675 - src.main - INFO - Added segment 3/17
+2025-08-31 16:40:59,706 - src.main - INFO - Added segment 4/17
+2025-08-31 16:40:59,753 - src.main - INFO - Added segment 5/17
+2025-08-31 16:40:59,796 - src.main - INFO - Added segment 6/17
+2025-08-31 16:40:59,836 - src.main - INFO - Added segment 7/17
+2025-08-31 16:40:59,869 - src.main - INFO - Added segment 8/17
+2025-08-31 16:40:59,904 - src.main - INFO - Added segment 9/17
+2025-08-31 16:40:59,936 - src.main - INFO - Added segment 10/17
+2025-08-31 16:40:59,971 - src.main - INFO - Added segment 11/17
+2025-08-31 16:41:00,007 - src.main - INFO - Added segment 12/17
+2025-08-31 16:41:00,037 - src.main - INFO - Added segment 13/17
+2025-08-31 16:41:00,073 - src.main - INFO - Added segment 14/17
+2025-08-31 16:41:00,107 - src.main - INFO - Added segment 15/17
+2025-08-31 16:41:00,145 - src.main - INFO - Added segment 16/17
+2025-08-31 16:41:00,183 - src.main - INFO - Added segment 17/17
+2025-08-31 16:41:00,301 - src.main - INFO - Combined audio saved: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 16:41:00,331 - src.main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 16:42:51,407 - main - INFO - PDF to Speech application initialized
+2025-08-31 16:43:22,241 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 16:43:22,243 - main - INFO - Analyzing your voice sample...
+2025-08-31 16:43:22,295 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 16:43:22,296 - main - INFO - Extracting voice characteristics...
+2025-08-31 16:43:22,296 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 16:43:22,296 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 16:43:22,297 - main - INFO - Initializing speaker encoder for voice cloning...
+2025-08-31 16:47:15,338 - main - INFO - Loaded YourTTS model for voice cloning
+2025-08-31 16:47:15,338 - main - INFO - Cloning voice for 1 chunks out of 1 total...
+2025-08-31 16:47:15,339 - main - INFO - Cloning chunk 1/1 (Progress: 100.0%)...
+2025-08-31 16:47:15,380 - main - WARNING - Failed to clone chunk 1: 
+2025-08-31 16:47:15,381 - main - ERROR - Voice cloning failed: No chunks were successfully cloned
+2025-08-31 16:47:15,388 - main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 16:49:05,637 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 16:49:05,638 - src.main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 16:49:05,638 - src.main - INFO - Extracting text from PDF...
+2025-08-31 16:49:05,755 - src.main - INFO - PDF has 440 pages
+2025-08-31 16:49:05,756 - src.main - INFO - Processed page 1/440
+2025-08-31 16:49:05,847 - src.main - INFO - Processed page 11/440
+2025-08-31 16:49:06,172 - src.main - INFO - Processed page 21/440
+2025-08-31 16:49:06,487 - src.main - INFO - Processed page 31/440
+2025-08-31 16:49:06,748 - src.main - INFO - Processed page 41/440
+2025-08-31 16:49:07,039 - src.main - INFO - Processed page 51/440
+2025-08-31 16:49:07,278 - src.main - INFO - Processed page 61/440
+2025-08-31 16:49:07,462 - src.main - INFO - Processed page 71/440
+2025-08-31 16:49:07,740 - src.main - INFO - Processed page 81/440
+2025-08-31 16:49:07,987 - src.main - INFO - Processed page 91/440
+2025-08-31 16:49:08,352 - src.main - INFO - Processed page 101/440
+2025-08-31 16:49:08,613 - src.main - INFO - Processed page 111/440
+2025-08-31 16:49:08,939 - src.main - INFO - Processed page 121/440
+2025-08-31 16:49:09,195 - src.main - INFO - Processed page 131/440
+2025-08-31 16:49:09,530 - src.main - INFO - Processed page 141/440
+2025-08-31 16:49:09,807 - src.main - INFO - Processed page 151/440
+2025-08-31 16:49:10,104 - src.main - INFO - Processed page 161/440
+2025-08-31 16:49:10,348 - src.main - INFO - Processed page 171/440
+2025-08-31 16:49:10,609 - src.main - INFO - Processed page 181/440
+2025-08-31 16:49:10,935 - src.main - INFO - Processed page 191/440
+2025-08-31 16:49:11,289 - src.main - INFO - Processed page 201/440
+2025-08-31 16:49:11,562 - src.main - INFO - Processed page 211/440
+2025-08-31 16:49:11,802 - src.main - INFO - Processed page 221/440
+2025-08-31 16:49:12,077 - src.main - INFO - Processed page 231/440
+2025-08-31 16:49:12,400 - src.main - INFO - Processed page 241/440
+2025-08-31 16:49:12,605 - src.main - INFO - Processed page 251/440
+2025-08-31 16:49:12,834 - src.main - INFO - Processed page 261/440
+2025-08-31 16:49:13,075 - src.main - INFO - Processed page 271/440
+2025-08-31 16:49:13,312 - src.main - INFO - Processed page 281/440
+2025-08-31 16:49:13,570 - src.main - INFO - Processed page 291/440
+2025-08-31 16:49:13,860 - src.main - INFO - Processed page 301/440
+2025-08-31 16:49:14,090 - src.main - INFO - Processed page 311/440
+2025-08-31 16:49:14,454 - src.main - INFO - Processed page 321/440
+2025-08-31 16:49:14,747 - src.main - INFO - Processed page 331/440
+2025-08-31 16:49:15,052 - src.main - INFO - Processed page 341/440
+2025-08-31 16:49:15,410 - src.main - INFO - Processed page 351/440
+2025-08-31 16:49:15,646 - src.main - INFO - Processed page 361/440
+2025-08-31 16:49:15,915 - src.main - INFO - Processed page 371/440
+2025-08-31 16:49:16,154 - src.main - INFO - Processed page 381/440
+2025-08-31 16:49:16,424 - src.main - INFO - Processed page 391/440
+2025-08-31 16:49:16,832 - src.main - INFO - Processed page 401/440
+2025-08-31 16:49:17,125 - src.main - INFO - Processed page 411/440
+2025-08-31 16:49:17,418 - src.main - INFO - Processed page 421/440
+2025-08-31 16:49:17,710 - src.main - INFO - Processed page 431/440
+2025-08-31 16:49:18,043 - src.main - INFO - Extracted 737969 characters from PDF
+2025-08-31 16:49:18,043 - src.main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 16:49:26,343 - src.main - INFO - Initializing Coqui TTS model...
+2025-08-31 16:49:27,308 - src.main - INFO - Converting 1476 text chunks to speech...
+2025-08-31 16:49:27,308 - src.main - INFO - Processing 35 chunks to generate ~5 minutes of audio
+2025-08-31 16:49:27,308 - src.main - INFO - Converting chunk 1/35...
+2025-08-31 16:49:40,507 - main - INFO - PDF to Speech application initialized
+2025-08-31 16:49:41,304 - main - INFO - PDF to Speech application initialized
+2025-08-31 16:49:56,256 - src.main - INFO - Converting chunk 2/35...
+2025-08-31 16:49:56,731 - main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 16:49:56,732 - main - INFO - Extracting text from PDF...
+2025-08-31 16:49:56,912 - main - INFO - PDF has 440 pages
+2025-08-31 16:49:56,913 - main - INFO - Processed page 1/440
+2025-08-31 16:49:57,082 - main - INFO - Processed page 11/440
+2025-08-31 16:49:57,739 - main - INFO - Processed page 21/440
+2025-08-31 16:49:58,411 - main - INFO - Processed page 31/440
+2025-08-31 16:49:58,969 - main - INFO - Processed page 41/440
+2025-08-31 16:49:59,507 - main - INFO - Processed page 51/440
+2025-08-31 16:49:59,940 - main - INFO - Processed page 61/440
+2025-08-31 16:50:00,303 - main - INFO - Processed page 71/440
+2025-08-31 16:50:00,908 - main - INFO - Processed page 81/440
+2025-08-31 16:50:01,450 - main - INFO - Processed page 91/440
+2025-08-31 16:50:02,191 - main - INFO - Processed page 101/440
+2025-08-31 16:50:02,759 - main - INFO - Processed page 111/440
+2025-08-31 16:50:03,460 - main - INFO - Processed page 121/440
+2025-08-31 16:50:04,004 - main - INFO - Processed page 131/440
+2025-08-31 16:50:04,725 - main - INFO - Processed page 141/440
+2025-08-31 16:50:05,213 - main - INFO - Processed page 151/440
+2025-08-31 16:50:05,772 - main - INFO - Processed page 161/440
+2025-08-31 16:50:06,154 - main - INFO - Processed page 171/440
+2025-08-31 16:50:06,568 - main - INFO - Processed page 181/440
+2025-08-31 16:50:07,082 - main - INFO - Processed page 191/440
+2025-08-31 16:50:07,606 - main - INFO - Processed page 201/440
+2025-08-31 16:50:08,061 - main - INFO - Processed page 211/440
+2025-08-31 16:50:08,466 - main - INFO - Processed page 221/440
+2025-08-31 16:50:08,953 - main - INFO - Processed page 231/440
+2025-08-31 16:50:09,526 - main - INFO - Processed page 241/440
+2025-08-31 16:50:09,830 - main - INFO - Processed page 251/440
+2025-08-31 16:50:10,231 - main - INFO - Processed page 261/440
+2025-08-31 16:50:10,652 - main - INFO - Processed page 271/440
+2025-08-31 16:50:11,091 - main - INFO - Processed page 281/440
+2025-08-31 16:50:11,519 - main - INFO - Processed page 291/440
+2025-08-31 16:50:12,020 - main - INFO - Processed page 301/440
+2025-08-31 16:50:12,452 - main - INFO - Processed page 311/440
+2025-08-31 16:50:13,146 - main - INFO - Processed page 321/440
+2025-08-31 16:50:13,657 - main - INFO - Processed page 331/440
+2025-08-31 16:50:14,173 - main - INFO - Processed page 341/440
+2025-08-31 16:50:14,777 - main - INFO - Processed page 351/440
+2025-08-31 16:50:15,201 - main - INFO - Processed page 361/440
+2025-08-31 16:50:15,613 - main - INFO - Processed page 371/440
+2025-08-31 16:50:16,006 - main - INFO - Processed page 381/440
+2025-08-31 16:50:16,438 - main - INFO - Processed page 391/440
+2025-08-31 16:50:17,112 - main - INFO - Processed page 401/440
+2025-08-31 16:50:17,584 - main - INFO - Processed page 411/440
+2025-08-31 16:50:18,099 - main - INFO - Processed page 421/440
+2025-08-31 16:50:18,584 - main - INFO - Processed page 431/440
+2025-08-31 16:50:19,210 - main - INFO - Extracted 737969 characters from PDF
+2025-08-31 16:50:19,210 - main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 16:50:22,768 - main - ERROR - TTS conversion failed: can't register atexit after shutdown
+2025-08-31 16:50:22,769 - main - INFO - Creating placeholder audio due to TTS error
+2025-08-31 16:50:31,581 - main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 16:51:16,904 - src.main - INFO - Converting chunk 3/35...
+2025-08-31 16:51:47,788 - src.main - INFO - Converting chunk 4/35...
+2025-08-31 16:51:49,871 - main - INFO - PDF to Speech application initialized
+2025-08-31 16:52:01,244 - main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 16:52:01,244 - main - INFO - Extracting text from PDF...
+2025-08-31 16:52:01,401 - main - INFO - PDF has 440 pages
+2025-08-31 16:52:01,402 - main - INFO - Processed page 1/440
+2025-08-31 16:52:01,568 - main - INFO - Processed page 11/440
+2025-08-31 16:52:02,215 - main - INFO - Processed page 21/440
+2025-08-31 16:52:02,957 - main - INFO - Processed page 31/440
+2025-08-31 16:52:03,500 - main - INFO - Processed page 41/440
+2025-08-31 16:52:04,077 - main - INFO - Processed page 51/440
+2025-08-31 16:52:04,560 - main - INFO - Processed page 61/440
+2025-08-31 16:52:04,950 - main - INFO - Processed page 71/440
+2025-08-31 16:52:05,528 - main - INFO - Processed page 81/440
+2025-08-31 16:52:06,046 - main - INFO - Processed page 91/440
+2025-08-31 16:52:06,775 - main - INFO - Processed page 101/440
+2025-08-31 16:52:07,357 - main - INFO - Processed page 111/440
+2025-08-31 16:52:08,027 - main - INFO - Processed page 121/440
+2025-08-31 16:52:08,534 - main - INFO - Processed page 131/440
+2025-08-31 16:52:09,245 - main - INFO - Processed page 141/440
+2025-08-31 16:52:09,801 - main - INFO - Processed page 151/440
+2025-08-31 16:52:10,330 - main - INFO - Processed page 161/440
+2025-08-31 16:52:10,724 - main - INFO - Processed page 171/440
+2025-08-31 16:52:11,166 - main - INFO - Processed page 181/440
+2025-08-31 16:52:11,721 - main - INFO - Processed page 191/440
+2025-08-31 16:52:12,247 - main - INFO - Processed page 201/440
+2025-08-31 16:52:12,698 - main - INFO - Processed page 211/440
+2025-08-31 16:52:13,116 - main - INFO - Processed page 221/440
+2025-08-31 16:52:13,587 - main - INFO - Processed page 231/440
+2025-08-31 16:52:14,165 - main - INFO - Processed page 241/440
+2025-08-31 16:52:14,499 - main - INFO - Processed page 251/440
+2025-08-31 16:52:14,901 - main - INFO - Processed page 261/440
+2025-08-31 16:52:15,271 - main - INFO - Processed page 271/440
+2025-08-31 16:52:15,652 - main - INFO - Processed page 281/440
+2025-08-31 16:52:16,065 - main - INFO - Processed page 291/440
+2025-08-31 16:52:16,542 - main - INFO - Processed page 301/440
+2025-08-31 16:52:16,918 - main - INFO - Processed page 311/440
+2025-08-31 16:52:17,474 - main - INFO - Processed page 321/440
+2025-08-31 16:52:17,995 - main - INFO - Processed page 331/440
+2025-08-31 16:52:18,508 - main - INFO - Processed page 341/440
+2025-08-31 16:52:19,118 - main - INFO - Processed page 351/440
+2025-08-31 16:52:19,489 - main - INFO - Processed page 361/440
+2025-08-31 16:52:19,903 - main - INFO - Processed page 371/440
+2025-08-31 16:52:20,282 - main - INFO - Processed page 381/440
+2025-08-31 16:52:20,698 - main - INFO - Processed page 391/440
+2025-08-31 16:52:21,368 - main - INFO - Processed page 401/440
+2025-08-31 16:52:21,911 - main - INFO - Processed page 411/440
+2025-08-31 16:52:22,383 - main - INFO - Processed page 421/440
+2025-08-31 16:52:22,863 - main - INFO - Processed page 431/440
+2025-08-31 16:52:23,465 - main - INFO - Extracted 737969 characters from PDF
+2025-08-31 16:52:23,466 - main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 16:52:36,794 - main - INFO - Initializing Coqui TTS model...
+2025-08-31 16:52:37,900 - main - INFO - Converting 1476 text chunks to speech...
+2025-08-31 16:52:37,901 - main - INFO - Processing 35 chunks to generate ~5 minutes of audio
+2025-08-31 16:52:37,901 - main - INFO - Converting chunk 1/35...
+2025-08-31 16:53:04,385 - main - INFO - Converting chunk 2/35...
+2025-08-31 16:53:50,501 - main - INFO - Converting chunk 3/35...
+2025-08-31 16:54:19,724 - main - INFO - Converting chunk 4/35...
+2025-08-31 16:56:52,696 - src.main - INFO - Converting chunk 5/35...
+2025-08-31 16:59:42,575 - main - INFO - Converting chunk 5/35...
+2025-08-31 17:04:37,284 - main - INFO - PDF to Speech application initialized
+2025-08-31 17:04:38,010 - main - INFO - PDF to Speech application initialized
+2025-08-31 17:04:56,854 - main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 17:04:56,855 - main - INFO - Extracting text from PDF...
+2025-08-31 17:04:56,966 - main - INFO - PDF has 11 pages
+2025-08-31 17:04:57,037 - main - INFO - Processed page 1/11
+2025-08-31 17:04:57,710 - main - INFO - Processed page 11/11
+2025-08-31 17:04:57,710 - main - INFO - Extracted 42610 characters from PDF
+2025-08-31 17:04:57,711 - main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 17:05:10,068 - main - INFO - Initializing Coqui TTS model...
+2025-08-31 17:05:10,833 - main - INFO - Converting 86 text chunks to speech...
+2025-08-31 17:05:10,834 - main - INFO - Processing 35 chunks to generate ~5 minutes of audio
+2025-08-31 17:05:10,834 - main - INFO - Converting chunk 1/35...
+2025-08-31 17:06:06,880 - main - INFO - Converting chunk 2/35...
+2025-08-31 17:06:19,171 - main - INFO - Converting chunk 3/35...
+2025-08-31 17:06:34,081 - main - INFO - Converting chunk 4/35...
+2025-08-31 17:06:47,473 - main - INFO - Converting chunk 5/35...
+2025-08-31 17:07:02,206 - main - INFO - Converting chunk 6/35...
+2025-08-31 17:07:15,331 - main - INFO - Converting chunk 7/35...
+2025-08-31 17:08:50,941 - main - INFO - Converting chunk 8/35...
+2025-08-31 17:09:47,492 - main - INFO - Converting chunk 9/35...
+2025-08-31 17:10:01,485 - main - INFO - Converting chunk 10/35...
+2025-08-31 17:10:17,247 - main - INFO - Converting chunk 11/35...
+2025-08-31 17:10:31,784 - main - INFO - Converting chunk 12/35...
+2025-08-31 17:10:46,137 - main - INFO - Converting chunk 13/35...
+2025-08-31 17:10:58,865 - main - INFO - Converting chunk 14/35...
+2025-08-31 17:11:11,983 - main - INFO - Converting chunk 15/35...
+2025-08-31 17:11:24,348 - main - INFO - Converting chunk 16/35...
+2025-08-31 17:11:39,889 - main - INFO - Converting chunk 17/35...
+2025-08-31 17:11:54,986 - main - INFO - Converting chunk 18/35...
+2025-08-31 17:12:08,643 - main - INFO - Converting chunk 19/35...
+2025-08-31 17:12:22,471 - main - INFO - Converting chunk 20/35...
+2025-08-31 17:12:36,292 - main - INFO - Converting chunk 21/35...
+2025-08-31 17:12:54,704 - main - INFO - Converting chunk 22/35...
+2025-08-31 17:13:17,554 - main - INFO - Converting chunk 23/35...
+2025-08-31 17:13:32,959 - main - INFO - Converting chunk 24/35...
+2025-08-31 17:13:51,215 - main - INFO - Converting chunk 25/35...
+2025-08-31 17:14:46,596 - main - INFO - Converting chunk 26/35...
+2025-08-31 17:15:02,027 - main - INFO - Converting chunk 27/35...
+2025-08-31 17:15:15,473 - main - INFO - Converting chunk 28/35...
+2025-08-31 17:15:29,660 - main - INFO - Converting chunk 29/35...
+2025-08-31 17:15:45,729 - main - INFO - Converting chunk 30/35...
+2025-08-31 17:16:44,721 - main - INFO - Converting chunk 31/35...
+2025-08-31 17:16:57,442 - main - INFO - Converting chunk 32/35...
+2025-08-31 17:17:10,016 - main - INFO - Converting chunk 33/35...
+2025-08-31 17:18:06,575 - main - INFO - Converting chunk 34/35...
+2025-08-31 17:18:20,911 - main - INFO - Converting chunk 35/35...
+2025-08-31 17:18:34,425 - main - INFO - Combining 35 audio segments...
+2025-08-31 17:18:34,425 - main - INFO - Adding segment 1/35
+2025-08-31 17:18:34,437 - main - INFO - Adding segment 2/35
+2025-08-31 17:18:34,446 - main - INFO - Adding segment 3/35
+2025-08-31 17:18:34,458 - main - INFO - Adding segment 4/35
+2025-08-31 17:18:34,469 - main - INFO - Adding segment 5/35
+2025-08-31 17:18:34,480 - main - INFO - Adding segment 6/35
+2025-08-31 17:18:34,492 - main - INFO - Adding segment 7/35
+2025-08-31 17:18:34,514 - main - INFO - Adding segment 8/35
+2025-08-31 17:18:34,534 - main - INFO - Adding segment 9/35
+2025-08-31 17:18:34,550 - main - INFO - Adding segment 10/35
+2025-08-31 17:18:34,567 - main - INFO - Adding segment 11/35
+2025-08-31 17:18:34,585 - main - INFO - Adding segment 12/35
+2025-08-31 17:18:34,602 - main - INFO - Adding segment 13/35
+2025-08-31 17:18:34,619 - main - INFO - Adding segment 14/35
+2025-08-31 17:18:34,637 - main - INFO - Adding segment 15/35
+2025-08-31 17:18:34,656 - main - INFO - Adding segment 16/35
+2025-08-31 17:18:34,672 - main - INFO - Adding segment 17/35
+2025-08-31 17:18:34,689 - main - INFO - Adding segment 18/35
+2025-08-31 17:18:34,712 - main - INFO - Adding segment 19/35
+2025-08-31 17:18:34,730 - main - INFO - Adding segment 20/35
+2025-08-31 17:18:34,748 - main - INFO - Adding segment 21/35
+2025-08-31 17:18:34,767 - main - INFO - Adding segment 22/35
+2025-08-31 17:18:34,789 - main - INFO - Adding segment 23/35
+2025-08-31 17:18:34,808 - main - INFO - Adding segment 24/35
+2025-08-31 17:18:34,831 - main - INFO - Adding segment 25/35
+2025-08-31 17:18:34,857 - main - INFO - Adding segment 26/35
+2025-08-31 17:18:34,880 - main - INFO - Adding segment 27/35
+2025-08-31 17:18:34,906 - main - INFO - Adding segment 28/35
+2025-08-31 17:18:34,932 - main - INFO - Adding segment 29/35
+2025-08-31 17:18:34,958 - main - INFO - Adding segment 30/35
+2025-08-31 17:18:34,986 - main - INFO - Adding segment 31/35
+2025-08-31 17:18:35,012 - main - INFO - Adding segment 32/35
+2025-08-31 17:18:35,042 - main - INFO - Adding segment 33/35
+2025-08-31 17:18:35,075 - main - INFO - Adding segment 34/35
+2025-08-31 17:18:35,104 - main - INFO - Adding segment 35/35
+2025-08-31 17:18:35,207 - main - INFO - Combined audio saved: output\default_voice\uploaded_EJ1172284_audio.wav
+2025-08-31 17:18:35,228 - main - INFO - Generated combined audio file: output\default_voice\uploaded_EJ1172284_audio.wav
+2025-08-31 17:18:35,230 - main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 17:20:10,774 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 17:20:10,775 - main - INFO - Analyzing your voice sample...
+2025-08-31 17:20:10,808 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 17:20:10,808 - main - INFO - Extracting voice characteristics...
+2025-08-31 17:20:10,810 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 17:20:10,810 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 17:20:10,810 - main - INFO - Initializing speaker encoder for voice cloning...
+2025-08-31 17:20:12,593 - main - INFO - Loaded YourTTS model for voice cloning
+2025-08-31 17:20:12,593 - main - INFO - Cloning voice for 1 chunks out of 1 total...
+2025-08-31 17:20:12,593 - main - INFO - Cloning chunk 1/1 (Progress: 100.0%)...
+2025-08-31 17:20:12,623 - main - WARNING - Failed to clone chunk 1: 
+2025-08-31 17:20:12,624 - main - ERROR - Voice cloning failed: No chunks were successfully cloned
+2025-08-31 17:20:12,632 - main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 17:20:16,206 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 17:20:16,208 - main - INFO - Analyzing your voice sample...
+2025-08-31 17:20:16,238 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 17:20:16,239 - main - INFO - Extracting voice characteristics...
+2025-08-31 17:20:16,239 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 17:20:16,240 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 17:20:16,240 - main - INFO - Initializing speaker encoder for voice cloning...
+2025-08-31 17:20:17,766 - main - INFO - Loaded YourTTS model for voice cloning
+2025-08-31 17:20:17,766 - main - INFO - Cloning voice for 1 chunks out of 1 total...
+2025-08-31 17:20:17,767 - main - INFO - Cloning chunk 1/1 (Progress: 100.0%)...
+2025-08-31 17:20:17,769 - main - WARNING - Failed to clone chunk 1: 
+2025-08-31 17:20:17,769 - main - ERROR - Voice cloning failed: No chunks were successfully cloned
+2025-08-31 17:20:17,771 - main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 17:22:47,481 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 17:22:47,481 - src.main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 17:22:47,481 - src.main - INFO - Extracting text from PDF...
+2025-08-31 17:22:47,585 - src.main - INFO - PDF has 440 pages
+2025-08-31 17:22:47,586 - src.main - INFO - Processed page 1/440
+2025-08-31 17:22:47,669 - src.main - INFO - Processed page 11/440
+2025-08-31 17:22:47,978 - src.main - INFO - Processed page 21/440
+2025-08-31 17:22:48,286 - src.main - INFO - Processed page 31/440
+2025-08-31 17:22:48,565 - src.main - INFO - Processed page 41/440
+2025-08-31 17:22:48,853 - src.main - INFO - Processed page 51/440
+2025-08-31 17:22:49,087 - src.main - INFO - Processed page 61/440
+2025-08-31 17:22:49,272 - src.main - INFO - Processed page 71/440
+2025-08-31 17:22:49,534 - src.main - INFO - Processed page 81/440
+2025-08-31 17:22:49,779 - src.main - INFO - Processed page 91/440
+2025-08-31 17:22:50,114 - src.main - INFO - Processed page 101/440
+2025-08-31 17:22:50,366 - src.main - INFO - Processed page 111/440
+2025-08-31 17:22:50,670 - src.main - INFO - Processed page 121/440
+2025-08-31 17:22:50,925 - src.main - INFO - Processed page 131/440
+2025-08-31 17:22:51,279 - src.main - INFO - Processed page 141/440
+2025-08-31 17:22:51,542 - src.main - INFO - Processed page 151/440
+2025-08-31 17:22:51,852 - src.main - INFO - Processed page 161/440
+2025-08-31 17:22:52,103 - src.main - INFO - Processed page 171/440
+2025-08-31 17:22:52,382 - src.main - INFO - Processed page 181/440
+2025-08-31 17:22:52,738 - src.main - INFO - Processed page 191/440
+2025-08-31 17:22:53,090 - src.main - INFO - Processed page 201/440
+2025-08-31 17:22:53,364 - src.main - INFO - Processed page 211/440
+2025-08-31 17:22:53,586 - src.main - INFO - Processed page 221/440
+2025-08-31 17:22:53,862 - src.main - INFO - Processed page 231/440
+2025-08-31 17:22:54,173 - src.main - INFO - Processed page 241/440
+2025-08-31 17:22:54,369 - src.main - INFO - Processed page 251/440
+2025-08-31 17:22:54,591 - src.main - INFO - Processed page 261/440
+2025-08-31 17:22:54,822 - src.main - INFO - Processed page 271/440
+2025-08-31 17:22:55,055 - src.main - INFO - Processed page 281/440
+2025-08-31 17:22:55,302 - src.main - INFO - Processed page 291/440
+2025-08-31 17:22:55,652 - src.main - INFO - Processed page 301/440
+2025-08-31 17:22:55,893 - src.main - INFO - Processed page 311/440
+2025-08-31 17:22:56,242 - src.main - INFO - Processed page 321/440
+2025-08-31 17:22:56,544 - src.main - INFO - Processed page 331/440
+2025-08-31 17:22:56,862 - src.main - INFO - Processed page 341/440
+2025-08-31 17:22:57,222 - src.main - INFO - Processed page 351/440
+2025-08-31 17:22:57,441 - src.main - INFO - Processed page 361/440
+2025-08-31 17:22:57,699 - src.main - INFO - Processed page 371/440
+2025-08-31 17:22:57,930 - src.main - INFO - Processed page 381/440
+2025-08-31 17:22:58,199 - src.main - INFO - Processed page 391/440
+2025-08-31 17:22:58,633 - src.main - INFO - Processed page 401/440
+2025-08-31 17:22:58,934 - src.main - INFO - Processed page 411/440
+2025-08-31 17:22:59,219 - src.main - INFO - Processed page 421/440
+2025-08-31 17:22:59,515 - src.main - INFO - Processed page 431/440
+2025-08-31 17:22:59,865 - src.main - INFO - Extracted 737969 characters from PDF
+2025-08-31 17:22:59,865 - src.main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 17:23:08,439 - src.main - INFO - Initializing Coqui TTS model...
+2025-08-31 17:23:09,384 - src.main - INFO - Converting 1476 text chunks to speech...
+2025-08-31 17:23:09,384 - src.main - INFO - Processing 10 chunks (5000 characters) to generate ~5 minutes of audio
+2025-08-31 17:23:09,384 - src.main - INFO - Converting chunk 1/10...
+2025-08-31 17:23:28,930 - src.main - INFO - Converting chunk 2/10...
+2025-08-31 17:24:00,460 - src.main - INFO - Converting chunk 3/10...
+2025-08-31 17:24:22,820 - src.main - INFO - Converting chunk 4/10...
+2025-08-31 17:25:45,662 - __main__ - INFO - PDF to Speech application initialized
+2025-08-31 17:26:14,127 - main - INFO - PDF to Speech application initialized
+2025-08-31 17:26:26,391 - main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 17:26:26,392 - main - INFO - Extracting text from PDF...
+2025-08-31 17:26:26,524 - main - INFO - PDF has 440 pages
+2025-08-31 17:26:26,534 - main - INFO - Processed page 1/440
+2025-08-31 17:26:26,688 - main - INFO - Processed page 11/440
+2025-08-31 17:26:27,289 - main - INFO - Processed page 21/440
+2025-08-31 17:26:27,890 - main - INFO - Processed page 31/440
+2025-08-31 17:26:28,368 - main - INFO - Processed page 41/440
+2025-08-31 17:26:28,864 - main - INFO - Processed page 51/440
+2025-08-31 17:26:29,272 - main - INFO - Processed page 61/440
+2025-08-31 17:26:29,601 - main - INFO - Processed page 71/440
+2025-08-31 17:26:30,107 - main - INFO - Processed page 81/440
+2025-08-31 17:26:30,559 - main - INFO - Processed page 91/440
+2025-08-31 17:26:31,212 - main - INFO - Processed page 101/440
+2025-08-31 17:26:31,714 - main - INFO - Processed page 111/440
+2025-08-31 17:26:32,269 - main - INFO - Processed page 121/440
+2025-08-31 17:26:32,771 - main - INFO - Processed page 131/440
+2025-08-31 17:26:33,396 - main - INFO - Processed page 141/440
+2025-08-31 17:26:33,885 - main - INFO - Processed page 151/440
+2025-08-31 17:26:34,458 - main - INFO - Processed page 161/440
+2025-08-31 17:26:34,908 - main - INFO - Processed page 171/440
+2025-08-31 17:26:35,391 - main - INFO - Processed page 181/440
+2025-08-31 17:26:35,848 - main - INFO - Processed page 191/440
+2025-08-31 17:26:36,290 - main - INFO - Processed page 201/440
+2025-08-31 17:26:36,685 - main - INFO - Processed page 211/440
+2025-08-31 17:26:36,950 - main - INFO - Processed page 221/440
+2025-08-31 17:26:37,222 - main - INFO - Processed page 231/440
+2025-08-31 17:26:37,558 - main - INFO - Processed page 241/440
+2025-08-31 17:26:37,742 - main - INFO - Processed page 251/440
+2025-08-31 17:26:37,968 - main - INFO - Processed page 261/440
+2025-08-31 17:26:38,199 - main - INFO - Processed page 271/440
+2025-08-31 17:26:38,437 - main - INFO - Processed page 281/440
+2025-08-31 17:26:38,683 - main - INFO - Processed page 291/440
+2025-08-31 17:26:38,965 - main - INFO - Processed page 301/440
+2025-08-31 17:26:39,198 - main - INFO - Processed page 311/440
+2025-08-31 17:26:39,543 - main - INFO - Processed page 321/440
+2025-08-31 17:26:39,860 - main - INFO - Processed page 331/440
+2025-08-31 17:26:40,196 - main - INFO - Processed page 341/440
+2025-08-31 17:26:40,543 - main - INFO - Processed page 351/440
+2025-08-31 17:26:40,830 - main - INFO - Processed page 361/440
+2025-08-31 17:26:41,093 - main - INFO - Processed page 371/440
+2025-08-31 17:26:41,342 - main - INFO - Processed page 381/440
+2025-08-31 17:26:41,622 - main - INFO - Processed page 391/440
+2025-08-31 17:26:42,037 - main - INFO - Processed page 401/440
+2025-08-31 17:26:42,348 - main - INFO - Processed page 411/440
+2025-08-31 17:26:42,639 - main - INFO - Processed page 421/440
+2025-08-31 17:26:42,986 - main - INFO - Processed page 431/440
+2025-08-31 17:26:43,354 - main - INFO - Extracted 737969 characters from PDF
+2025-08-31 17:26:43,356 - main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 17:26:51,861 - main - INFO - Initializing Coqui TTS model...
+2025-08-31 17:26:52,578 - main - INFO - Converting 20 text chunks to speech (max 10,000 chars)...
+2025-08-31 17:26:52,578 - main - INFO - Processing 20 chunks to generate audio from first 10,000 characters
+2025-08-31 17:26:52,578 - main - INFO - Converting chunk 1/20...
+2025-08-31 17:27:08,099 - main - INFO - Converting chunk 2/20...
+2025-08-31 17:28:19,909 - main - INFO - Converting chunk 3/20...
+2025-08-31 17:28:53,870 - __main__ - INFO - PDF to Speech application initialized
+2025-08-31 17:28:57,184 - __main__ - INFO - PDF to Speech application initialized
+2025-08-31 17:29:01,101 - __main__ - INFO - PDF to Speech application initialized
+2025-08-31 17:29:04,124 - __main__ - INFO - PDF to Speech application initialized
+2025-08-31 17:30:17,140 - __main__ - INFO - PDF to Speech application initialized
+2025-08-31 17:30:28,027 - __main__ - INFO - PDF to Speech application initialized
+2025-08-31 17:31:11,122 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 17:31:11,122 - src.main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 17:31:11,122 - src.main - INFO - Extracting text from PDF...
+2025-08-31 17:31:11,232 - src.main - INFO - PDF has 440 pages
+2025-08-31 17:31:11,233 - src.main - INFO - Processed page 1/440
+2025-08-31 17:31:11,323 - src.main - INFO - Processed page 11/440
+2025-08-31 17:31:11,651 - src.main - INFO - Processed page 21/440
+2025-08-31 17:31:11,969 - src.main - INFO - Processed page 31/440
+2025-08-31 17:31:12,220 - src.main - INFO - Processed page 41/440
+2025-08-31 17:31:12,484 - src.main - INFO - Processed page 51/440
+2025-08-31 17:31:12,691 - src.main - INFO - Processed page 61/440
+2025-08-31 17:31:12,874 - src.main - INFO - Processed page 71/440
+2025-08-31 17:31:13,136 - src.main - INFO - Processed page 81/440
+2025-08-31 17:31:13,370 - src.main - INFO - Processed page 91/440
+2025-08-31 17:31:13,711 - src.main - INFO - Processed page 101/440
+2025-08-31 17:31:13,967 - src.main - INFO - Processed page 111/440
+2025-08-31 17:31:14,254 - src.main - INFO - Processed page 121/440
+2025-08-31 17:31:14,516 - src.main - INFO - Processed page 131/440
+2025-08-31 17:31:14,864 - src.main - INFO - Processed page 141/440
+2025-08-31 17:31:15,120 - src.main - INFO - Processed page 151/440
+2025-08-31 17:31:15,413 - src.main - INFO - Processed page 161/440
+2025-08-31 17:31:15,678 - src.main - INFO - Processed page 171/440
+2025-08-31 17:31:15,952 - src.main - INFO - Processed page 181/440
+2025-08-31 17:31:16,283 - src.main - INFO - Processed page 191/440
+2025-08-31 17:31:16,625 - src.main - INFO - Processed page 201/440
+2025-08-31 17:31:16,891 - src.main - INFO - Processed page 211/440
+2025-08-31 17:31:17,141 - src.main - INFO - Processed page 221/440
+2025-08-31 17:31:17,475 - src.main - INFO - Processed page 231/440
+2025-08-31 17:31:17,778 - src.main - INFO - Processed page 241/440
+2025-08-31 17:31:17,966 - src.main - INFO - Processed page 251/440
+2025-08-31 17:31:18,181 - src.main - INFO - Processed page 261/440
+2025-08-31 17:31:18,433 - src.main - INFO - Processed page 271/440
+2025-08-31 17:31:18,684 - src.main - INFO - Processed page 281/440
+2025-08-31 17:31:18,924 - src.main - INFO - Processed page 291/440
+2025-08-31 17:31:19,200 - src.main - INFO - Processed page 301/440
+2025-08-31 17:31:19,425 - src.main - INFO - Processed page 311/440
+2025-08-31 17:31:19,781 - src.main - INFO - Processed page 321/440
+2025-08-31 17:31:20,062 - src.main - INFO - Processed page 331/440
+2025-08-31 17:31:20,366 - src.main - INFO - Processed page 341/440
+2025-08-31 17:31:20,714 - src.main - INFO - Processed page 351/440
+2025-08-31 17:31:20,947 - src.main - INFO - Processed page 361/440
+2025-08-31 17:31:21,196 - src.main - INFO - Processed page 371/440
+2025-08-31 17:31:21,428 - src.main - INFO - Processed page 381/440
+2025-08-31 17:31:21,694 - src.main - INFO - Processed page 391/440
+2025-08-31 17:31:22,102 - src.main - INFO - Processed page 401/440
+2025-08-31 17:31:22,423 - src.main - INFO - Processed page 411/440
+2025-08-31 17:31:22,711 - src.main - INFO - Processed page 421/440
+2025-08-31 17:31:23,000 - src.main - INFO - Processed page 431/440
+2025-08-31 17:31:23,320 - src.main - INFO - Extracted 737969 characters from PDF
+2025-08-31 17:31:23,320 - src.main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 17:31:31,610 - src.main - INFO - Initializing Coqui TTS model...
+2025-08-31 17:31:32,484 - src.main - INFO - Converting 3 text chunks to speech (max 10,000 chars)...
+2025-08-31 17:31:32,484 - src.main - INFO - Processing 3 chunks to generate audio from first 10,000 characters
+2025-08-31 17:31:32,484 - src.main - INFO - Converting chunk 1/3...
+2025-08-31 17:31:50,181 - src.main - INFO - Converting chunk 2/3...
+2025-08-31 17:32:18,681 - src.main - INFO - Converting chunk 3/3...
+2025-08-31 17:32:37,273 - src.main - INFO - Combining 3 audio segments...
+2025-08-31 17:32:37,273 - src.main - INFO - Adding segment 1/3
+2025-08-31 17:32:37,284 - src.main - INFO - Adding segment 2/3
+2025-08-31 17:32:37,296 - src.main - INFO - Adding segment 3/3
+2025-08-31 17:32:37,311 - src.main - INFO - Combined audio saved: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 17:32:37,313 - src.main - INFO - Generated combined audio file: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 17:32:37,316 - src.main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 17:33:10,987 - main - INFO - PDF to Speech application initialized
+2025-08-31 17:33:19,831 - main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 17:33:19,831 - main - INFO - Extracting text from PDF...
+2025-08-31 17:33:19,969 - main - INFO - PDF has 440 pages
+2025-08-31 17:33:19,969 - main - INFO - Processed page 1/440
+2025-08-31 17:33:20,118 - main - INFO - Processed page 11/440
+2025-08-31 17:33:20,714 - main - INFO - Processed page 21/440
+2025-08-31 17:33:21,347 - main - INFO - Processed page 31/440
+2025-08-31 17:33:21,833 - main - INFO - Processed page 41/440
+2025-08-31 17:33:22,364 - main - INFO - Processed page 51/440
+2025-08-31 17:33:22,771 - main - INFO - Processed page 61/440
+2025-08-31 17:33:23,084 - main - INFO - Processed page 71/440
+2025-08-31 17:33:23,594 - main - INFO - Processed page 81/440
+2025-08-31 17:33:24,078 - main - INFO - Processed page 91/440
+2025-08-31 17:33:24,737 - main - INFO - Processed page 101/440
+2025-08-31 17:33:25,235 - main - INFO - Processed page 111/440
+2025-08-31 17:33:25,821 - main - INFO - Processed page 121/440
+2025-08-31 17:33:26,322 - main - INFO - Processed page 131/440
+2025-08-31 17:33:26,944 - main - INFO - Processed page 141/440
+2025-08-31 17:33:27,440 - main - INFO - Processed page 151/440
+2025-08-31 17:33:27,748 - main - INFO - Processed page 161/440
+2025-08-31 17:33:27,984 - main - INFO - Processed page 171/440
+2025-08-31 17:33:28,271 - main - INFO - Processed page 181/440
+2025-08-31 17:33:28,589 - main - INFO - Processed page 191/440
+2025-08-31 17:33:28,907 - main - INFO - Processed page 201/440
+2025-08-31 17:33:29,166 - main - INFO - Processed page 211/440
+2025-08-31 17:33:29,411 - main - INFO - Processed page 221/440
+2025-08-31 17:33:29,683 - main - INFO - Processed page 231/440
+2025-08-31 17:33:30,006 - main - INFO - Processed page 241/440
+2025-08-31 17:33:30,184 - main - INFO - Processed page 251/440
+2025-08-31 17:33:30,412 - main - INFO - Processed page 261/440
+2025-08-31 17:33:30,645 - main - INFO - Processed page 271/440
+2025-08-31 17:33:30,894 - main - INFO - Processed page 281/440
+2025-08-31 17:33:31,142 - main - INFO - Processed page 291/440
+2025-08-31 17:33:31,412 - main - INFO - Processed page 301/440
+2025-08-31 17:33:31,643 - main - INFO - Processed page 311/440
+2025-08-31 17:33:31,983 - main - INFO - Processed page 321/440
+2025-08-31 17:33:32,299 - main - INFO - Processed page 331/440
+2025-08-31 17:33:32,609 - main - INFO - Processed page 341/440
+2025-08-31 17:33:32,975 - main - INFO - Processed page 351/440
+2025-08-31 17:33:33,211 - main - INFO - Processed page 361/440
+2025-08-31 17:33:33,460 - main - INFO - Processed page 371/440
+2025-08-31 17:33:33,689 - main - INFO - Processed page 381/440
+2025-08-31 17:33:33,951 - main - INFO - Processed page 391/440
+2025-08-31 17:33:34,371 - main - INFO - Processed page 401/440
+2025-08-31 17:33:34,663 - main - INFO - Processed page 411/440
+2025-08-31 17:33:34,945 - main - INFO - Processed page 421/440
+2025-08-31 17:33:35,233 - main - INFO - Processed page 431/440
+2025-08-31 17:33:35,585 - main - INFO - Extracted 737969 characters from PDF
+2025-08-31 17:33:35,585 - main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 17:33:43,992 - main - INFO - Initializing Coqui TTS model...
+2025-08-31 17:33:44,820 - main - INFO - Converting 3 text chunks to speech (max 10,000 chars)...
+2025-08-31 17:33:44,820 - main - INFO - Processing 3 chunks to generate audio from first 10,000 characters
+2025-08-31 17:33:44,820 - main - INFO - Converting chunk 1/3...
+2025-08-31 17:34:07,760 - main - INFO - Converting chunk 2/3...
+2025-08-31 17:34:34,789 - main - INFO - Converting chunk 3/3...
+2025-08-31 17:34:37,787 - main - INFO - Combining 3 audio segments...
+2025-08-31 17:34:37,787 - main - INFO - Adding segment 1/3
+2025-08-31 17:34:37,800 - main - INFO - Adding segment 2/3
+2025-08-31 17:34:37,815 - main - INFO - Adding segment 3/3
+2025-08-31 17:34:37,828 - main - INFO - Combined audio saved: output\default_voice\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 17:34:37,831 - main - INFO - Generated combined audio file: output\default_voice\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 17:34:37,834 - main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 17:35:32,306 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 17:35:32,307 - main - INFO - Analyzing your voice sample...
+2025-08-31 17:35:32,339 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 17:35:32,339 - main - INFO - Extracting voice characteristics...
+2025-08-31 17:35:32,341 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 17:35:32,341 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 17:35:32,341 - main - INFO - Initializing voice cloning with fallback approach...
+2025-08-31 17:35:32,341 - main - INFO - Using fallback voice cloning method...
+2025-08-31 17:35:33,196 - main - INFO - Processing 1 chunks out of 1 total...
+2025-08-31 17:35:33,196 - main - INFO - Processing chunk 1/1 (Progress: 100.0%)...
+2025-08-31 17:35:35,136 - main - WARNING - Failed to apply voice characteristics: [WinError 2] The system cannot find the file specified
+2025-08-31 17:35:35,136 - main - INFO - Combining 1 audio files with pydub...
+2025-08-31 17:35:35,137 - main - INFO - Added segment 1/1
+2025-08-31 17:35:35,139 - main - INFO - Combined audio saved: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 17:35:35,140 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 17:40:26,238 - main - INFO - PDF to Speech application initialized
+2025-08-31 17:40:48,205 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 17:40:48,206 - main - INFO - Analyzing your voice sample...
+2025-08-31 17:40:48,267 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 17:40:48,267 - main - INFO - Extracting voice characteristics...
+2025-08-31 17:40:48,269 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 17:40:48,269 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 17:40:48,269 - main - INFO - Initializing voice cloning with YourTTS speaker embedding...
+2025-08-31 17:41:04,019 - main - ERROR - Voice cloning failed: Model is multi-lingual but no `language` is provided.
+2025-08-31 17:41:04,021 - main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 17:41:58,596 - main - INFO - PDF to Speech application initialized
+2025-08-31 17:42:12,572 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 17:42:12,573 - main - INFO - Analyzing your voice sample...
+2025-08-31 17:42:12,658 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 17:42:12,660 - main - INFO - Extracting voice characteristics...
+2025-08-31 17:42:12,661 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 17:42:12,661 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 17:42:12,661 - main - INFO - Initializing voice cloning with YourTTS speaker embedding...
+2025-08-31 17:42:28,152 - main - ERROR - Voice cloning failed: 
+2025-08-31 17:42:28,160 - main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 17:42:53,949 - main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 17:42:53,950 - main - INFO - Extracting text from PDF...
+2025-08-31 17:42:54,091 - main - INFO - PDF has 440 pages
+2025-08-31 17:42:54,091 - main - INFO - Processed page 1/440
+2025-08-31 17:42:54,236 - main - INFO - Processed page 11/440
+2025-08-31 17:42:55,002 - main - INFO - Processed page 21/440
+2025-08-31 17:42:55,577 - main - INFO - Processed page 31/440
+2025-08-31 17:42:56,232 - main - INFO - Processed page 41/440
+2025-08-31 17:42:56,711 - main - INFO - Processed page 51/440
+2025-08-31 17:42:57,093 - main - INFO - Processed page 61/440
+2025-08-31 17:42:57,611 - main - INFO - Processed page 71/440
+2025-08-31 17:42:58,093 - main - INFO - Processed page 81/440
+2025-08-31 17:42:58,509 - main - INFO - Processed page 91/440
+2025-08-31 17:42:59,287 - main - INFO - Processed page 101/440
+2025-08-31 17:42:59,893 - main - INFO - Processed page 111/440
+2025-08-31 17:43:00,413 - main - INFO - Processed page 121/440
+2025-08-31 17:43:01,032 - main - INFO - Processed page 131/440
+2025-08-31 17:43:01,594 - main - INFO - Processed page 141/440
+2025-08-31 17:43:02,202 - main - INFO - Processed page 151/440
+2025-08-31 17:43:02,682 - main - INFO - Processed page 161/440
+2025-08-31 17:43:03,320 - main - INFO - Processed page 171/440
+2025-08-31 17:43:03,774 - main - INFO - Processed page 181/440
+2025-08-31 17:43:04,558 - main - INFO - Processed page 191/440
+2025-08-31 17:43:05,108 - main - INFO - Processed page 201/440
+2025-08-31 17:43:05,828 - main - INFO - Processed page 211/440
+2025-08-31 17:43:06,243 - main - INFO - Processed page 221/440
+2025-08-31 17:43:06,914 - main - INFO - Processed page 231/440
+2025-08-31 17:43:07,455 - main - INFO - Processed page 241/440
+2025-08-31 17:43:07,989 - main - INFO - Processed page 251/440
+2025-08-31 17:43:08,383 - main - INFO - Processed page 261/440
+2025-08-31 17:43:08,799 - main - INFO - Processed page 271/440
+2025-08-31 17:43:09,389 - main - INFO - Processed page 281/440
+2025-08-31 17:43:09,832 - main - INFO - Processed page 291/440
+2025-08-31 17:43:10,533 - main - INFO - Processed page 301/440
+2025-08-31 17:43:10,936 - main - INFO - Processed page 311/440
+2025-08-31 17:43:11,773 - main - INFO - Processed page 321/440
+2025-08-31 17:43:12,305 - main - INFO - Processed page 331/440
+2025-08-31 17:43:13,059 - main - INFO - Processed page 341/440
+2025-08-31 17:43:13,896 - main - INFO - Processed page 351/440
+2025-08-31 17:43:14,313 - main - INFO - Processed page 361/440
+2025-08-31 17:43:14,787 - main - INFO - Processed page 371/440
+2025-08-31 17:43:15,411 - main - INFO - Processed page 381/440
+2025-08-31 17:43:15,912 - main - INFO - Processed page 391/440
+2025-08-31 17:43:16,851 - main - INFO - Processed page 401/440
+2025-08-31 17:43:17,605 - main - INFO - Processed page 411/440
+2025-08-31 17:43:18,133 - main - INFO - Processed page 421/440
+2025-08-31 17:43:18,858 - main - INFO - Processed page 431/440
+2025-08-31 17:43:19,472 - main - INFO - Extracted 737969 characters from PDF
+2025-08-31 17:43:19,472 - main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 17:43:19,472 - main - INFO - Initializing Coqui TTS model...
+2025-08-31 17:43:20,432 - main - INFO - Converting 3 text chunks to speech (max 10,000 chars)...
+2025-08-31 17:43:20,432 - main - INFO - Processing 3 chunks to generate audio from first 10,000 characters
+2025-08-31 17:43:20,432 - main - INFO - Converting chunk 1/3...
+2025-08-31 17:43:50,861 - main - INFO - Converting chunk 2/3...
+2025-08-31 17:45:10,348 - main - INFO - Converting chunk 3/3...
+2025-08-31 17:45:21,243 - main - INFO - Combining 3 audio segments...
+2025-08-31 17:45:21,243 - main - INFO - Adding segment 1/3
+2025-08-31 17:45:21,256 - main - INFO - Adding segment 2/3
+2025-08-31 17:45:21,270 - main - INFO - Adding segment 3/3
+2025-08-31 17:45:21,287 - main - INFO - Combined audio saved: output\default_voice\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 17:45:21,289 - main - INFO - Generated combined audio file: output\default_voice\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 17:45:21,292 - main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 17:45:47,824 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 17:45:47,824 - main - INFO - Analyzing your voice sample...
+2025-08-31 17:45:47,856 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 17:45:47,856 - main - INFO - Extracting voice characteristics...
+2025-08-31 17:45:47,857 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 17:45:47,857 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 17:45:47,857 - main - INFO - Initializing voice cloning with YourTTS speaker embedding...
+2025-08-31 17:45:49,387 - main - ERROR - Voice cloning failed: 
+2025-08-31 17:45:49,388 - main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 17:59:17,101 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 17:59:17,102 - src.main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 17:59:17,102 - src.main - INFO - Analyzing your voice sample...
+2025-08-31 17:59:17,103 - src.main - ERROR - STEP 2 FAILED: No module named 'pydub'
+2025-08-31 17:59:43,640 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 17:59:43,640 - src.main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 17:59:43,641 - src.main - INFO - Analyzing your voice sample...
+2025-08-31 17:59:43,642 - src.main - ERROR - STEP 2 FAILED: No module named 'pydub'
+2025-08-31 18:00:09,527 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 18:00:09,527 - src.main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:00:09,527 - src.main - INFO - Analyzing your voice sample...
+2025-08-31 18:00:09,528 - src.main - ERROR - STEP 2 FAILED: No module named 'pydub'
+2025-08-31 18:01:11,365 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 18:01:11,366 - src.main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:01:11,366 - src.main - INFO - Analyzing your voice sample...
+2025-08-31 18:01:11,367 - src.main - ERROR - STEP 2 FAILED: No module named 'pydub'
+2025-08-31 18:02:23,483 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 18:02:23,483 - src.main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:02:23,485 - src.main - INFO - Analyzing your voice sample...
+2025-08-31 18:02:23,485 - src.main - ERROR - pydub not available for audio processing
+2025-08-31 18:02:23,485 - src.main - INFO - Extracting voice characteristics...
+2025-08-31 18:02:23,486 - src.main - INFO - Found corresponding PDF: data\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn.pdf
+2025-08-31 18:02:23,487 - src.main - WARNING - PyPDF2 not available, using simple text extraction
+2025-08-31 18:02:23,487 - src.main - INFO - Regenerating audio with cloned voice...
+2025-08-31 18:02:23,487 - src.main - INFO - Initializing voice cloning with YourTTS speaker embedding...
+2025-08-31 18:02:23,488 - src.main - ERROR - Voice cloning failed: No module named 'TTS'
+2025-08-31 18:02:23,488 - src.main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 18:29:41,155 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 18:29:41,156 - src.main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:29:41,156 - src.main - INFO - Analyzing your voice sample...
+2025-08-31 18:29:41,156 - src.main - INFO - Extracting voice characteristics...
+2025-08-31 18:29:41,157 - src.main - INFO - Found corresponding PDF: data\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn.pdf
+2025-08-31 18:29:41,389 - src.main - INFO - PDF has 440 pages
+2025-08-31 18:29:41,390 - src.main - INFO - Processed page 1/440
+2025-08-31 18:29:41,521 - src.main - INFO - Processed page 11/440
+2025-08-31 18:29:41,922 - src.main - INFO - Processed page 21/440
+2025-08-31 18:29:42,272 - src.main - INFO - Processed page 31/440
+2025-08-31 18:29:42,548 - src.main - INFO - Processed page 41/440
+2025-08-31 18:29:42,834 - src.main - INFO - Processed page 51/440
+2025-08-31 18:29:43,062 - src.main - INFO - Processed page 61/440
+2025-08-31 18:29:43,265 - src.main - INFO - Processed page 71/440
+2025-08-31 18:29:43,571 - src.main - INFO - Processed page 81/440
+2025-08-31 18:29:43,845 - src.main - INFO - Processed page 91/440
+2025-08-31 18:29:44,211 - src.main - INFO - Processed page 101/440
+2025-08-31 18:29:44,483 - src.main - INFO - Processed page 111/440
+2025-08-31 18:29:44,801 - src.main - INFO - Processed page 121/440
+2025-08-31 18:29:45,076 - src.main - INFO - Processed page 131/440
+2025-08-31 18:29:45,432 - src.main - INFO - Processed page 141/440
+2025-08-31 18:29:45,706 - src.main - INFO - Processed page 151/440
+2025-08-31 18:29:46,025 - src.main - INFO - Processed page 161/440
+2025-08-31 18:29:46,302 - src.main - INFO - Processed page 171/440
+2025-08-31 18:29:46,591 - src.main - INFO - Processed page 181/440
+2025-08-31 18:29:46,946 - src.main - INFO - Processed page 191/440
+2025-08-31 18:29:47,296 - src.main - INFO - Processed page 201/440
+2025-08-31 18:29:47,578 - src.main - INFO - Processed page 211/440
+2025-08-31 18:29:47,827 - src.main - INFO - Processed page 221/440
+2025-08-31 18:29:48,118 - src.main - INFO - Processed page 231/440
+2025-08-31 18:29:48,437 - src.main - INFO - Processed page 241/440
+2025-08-31 18:29:48,648 - src.main - INFO - Processed page 251/440
+2025-08-31 18:29:48,888 - src.main - INFO - Processed page 261/440
+2025-08-31 18:29:49,132 - src.main - INFO - Processed page 271/440
+2025-08-31 18:29:49,392 - src.main - INFO - Processed page 281/440
+2025-08-31 18:29:49,685 - src.main - INFO - Processed page 291/440
+2025-08-31 18:29:50,000 - src.main - INFO - Processed page 301/440
+2025-08-31 18:29:50,242 - src.main - INFO - Processed page 311/440
+2025-08-31 18:29:50,649 - src.main - INFO - Processed page 321/440
+2025-08-31 18:29:50,998 - src.main - INFO - Processed page 331/440
+2025-08-31 18:29:51,368 - src.main - INFO - Processed page 341/440
+2025-08-31 18:29:51,809 - src.main - INFO - Processed page 351/440
+2025-08-31 18:29:52,077 - src.main - INFO - Processed page 361/440
+2025-08-31 18:29:52,378 - src.main - INFO - Processed page 371/440
+2025-08-31 18:29:52,657 - src.main - INFO - Processed page 381/440
+2025-08-31 18:29:53,013 - src.main - INFO - Processed page 391/440
+2025-08-31 18:29:53,486 - src.main - INFO - Processed page 401/440
+2025-08-31 18:29:53,837 - src.main - INFO - Processed page 411/440
+2025-08-31 18:29:54,181 - src.main - INFO - Processed page 421/440
+2025-08-31 18:29:54,555 - src.main - INFO - Processed page 431/440
+2025-08-31 18:29:54,940 - src.main - INFO - Regenerating audio with cloned voice...
+2025-08-31 18:29:54,940 - src.main - INFO - Initializing voice cloning with YourTTS speaker embedding...
+2025-08-31 18:29:54,940 - src.main - ERROR - Voice cloning failed: No module named 'TTS'
+2025-08-31 18:29:54,941 - src.main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 18:30:24,526 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 18:30:24,527 - src.main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:30:24,527 - src.main - INFO - Analyzing your voice sample...
+2025-08-31 18:30:24,527 - src.main - INFO - Extracting voice characteristics...
+2025-08-31 18:30:24,528 - src.main - INFO - Found corresponding PDF: data\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn.pdf
+2025-08-31 18:30:24,632 - src.main - INFO - PDF has 440 pages
+2025-08-31 18:30:24,633 - src.main - INFO - Processed page 1/440
+2025-08-31 18:30:24,731 - src.main - INFO - Processed page 11/440
+2025-08-31 18:30:25,114 - src.main - INFO - Processed page 21/440
+2025-08-31 18:30:25,470 - src.main - INFO - Processed page 31/440
+2025-08-31 18:30:25,745 - src.main - INFO - Processed page 41/440
+2025-08-31 18:30:26,062 - src.main - INFO - Processed page 51/440
+2025-08-31 18:30:26,289 - src.main - INFO - Processed page 61/440
+2025-08-31 18:30:26,488 - src.main - INFO - Processed page 71/440
+2025-08-31 18:30:26,771 - src.main - INFO - Processed page 81/440
+2025-08-31 18:30:27,033 - src.main - INFO - Processed page 91/440
+2025-08-31 18:30:27,399 - src.main - INFO - Processed page 101/440
+2025-08-31 18:30:27,685 - src.main - INFO - Processed page 111/440
+2025-08-31 18:30:28,012 - src.main - INFO - Processed page 121/440
+2025-08-31 18:30:28,340 - src.main - INFO - Processed page 131/440
+2025-08-31 18:30:28,717 - src.main - INFO - Processed page 141/440
+2025-08-31 18:30:29,004 - src.main - INFO - Processed page 151/440
+2025-08-31 18:30:29,323 - src.main - INFO - Processed page 161/440
+2025-08-31 18:30:29,581 - src.main - INFO - Processed page 171/440
+2025-08-31 18:30:29,862 - src.main - INFO - Processed page 181/440
+2025-08-31 18:30:30,223 - src.main - INFO - Processed page 191/440
+2025-08-31 18:30:30,584 - src.main - INFO - Processed page 201/440
+2025-08-31 18:30:30,898 - src.main - INFO - Processed page 211/440
+2025-08-31 18:30:31,150 - src.main - INFO - Processed page 221/440
+2025-08-31 18:30:31,437 - src.main - INFO - Processed page 231/440
+2025-08-31 18:30:31,774 - src.main - INFO - Processed page 241/440
+2025-08-31 18:30:31,987 - src.main - INFO - Processed page 251/440
+2025-08-31 18:30:32,217 - src.main - INFO - Processed page 261/440
+2025-08-31 18:30:32,461 - src.main - INFO - Processed page 271/440
+2025-08-31 18:30:32,711 - src.main - INFO - Processed page 281/440
+2025-08-31 18:30:32,972 - src.main - INFO - Processed page 291/440
+2025-08-31 18:30:33,278 - src.main - INFO - Processed page 301/440
+2025-08-31 18:30:33,533 - src.main - INFO - Processed page 311/440
+2025-08-31 18:30:33,950 - src.main - INFO - Processed page 321/440
+2025-08-31 18:30:34,268 - src.main - INFO - Processed page 331/440
+2025-08-31 18:30:34,608 - src.main - INFO - Processed page 341/440
+2025-08-31 18:30:35,050 - src.main - INFO - Processed page 351/440
+2025-08-31 18:30:35,300 - src.main - INFO - Processed page 361/440
+2025-08-31 18:30:35,577 - src.main - INFO - Processed page 371/440
+2025-08-31 18:30:35,840 - src.main - INFO - Processed page 381/440
+2025-08-31 18:30:36,134 - src.main - INFO - Processed page 391/440
+2025-08-31 18:30:36,606 - src.main - INFO - Processed page 401/440
+2025-08-31 18:30:36,977 - src.main - INFO - Processed page 411/440
+2025-08-31 18:30:37,300 - src.main - INFO - Processed page 421/440
+2025-08-31 18:30:37,627 - src.main - INFO - Processed page 431/440
+2025-08-31 18:30:38,006 - src.main - INFO - Regenerating audio with cloned voice...
+2025-08-31 18:30:38,006 - src.main - INFO - Using simplified voice cloning with audio processing...
+2025-08-31 18:30:38,006 - src.main - ERROR - TTS not available for voice cloning
+2025-08-31 18:30:38,006 - src.main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 18:31:27,588 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 18:31:27,588 - src.main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:31:27,589 - src.main - INFO - Analyzing your voice sample...
+2025-08-31 18:31:27,589 - src.main - INFO - Extracting voice characteristics...
+2025-08-31 18:31:27,590 - src.main - INFO - Found corresponding PDF: data\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn.pdf
+2025-08-31 18:31:27,698 - src.main - INFO - PDF has 440 pages
+2025-08-31 18:31:27,699 - src.main - INFO - Processed page 1/440
+2025-08-31 18:31:27,804 - src.main - INFO - Processed page 11/440
+2025-08-31 18:31:28,308 - src.main - INFO - Processed page 21/440
+2025-08-31 18:31:28,684 - src.main - INFO - Processed page 31/440
+2025-08-31 18:31:28,956 - src.main - INFO - Processed page 41/440
+2025-08-31 18:31:29,239 - src.main - INFO - Processed page 51/440
+2025-08-31 18:31:29,472 - src.main - INFO - Processed page 61/440
+2025-08-31 18:31:29,676 - src.main - INFO - Processed page 71/440
+2025-08-31 18:31:29,975 - src.main - INFO - Processed page 81/440
+2025-08-31 18:31:30,237 - src.main - INFO - Processed page 91/440
+2025-08-31 18:31:30,594 - src.main - INFO - Processed page 101/440
+2025-08-31 18:31:30,874 - src.main - INFO - Processed page 111/440
+2025-08-31 18:31:31,213 - src.main - INFO - Processed page 121/440
+2025-08-31 18:31:31,492 - src.main - INFO - Processed page 131/440
+2025-08-31 18:31:31,850 - src.main - INFO - Processed page 141/440
+2025-08-31 18:31:32,144 - src.main - INFO - Processed page 151/440
+2025-08-31 18:31:32,466 - src.main - INFO - Processed page 161/440
+2025-08-31 18:31:32,740 - src.main - INFO - Processed page 171/440
+2025-08-31 18:31:33,040 - src.main - INFO - Processed page 181/440
+2025-08-31 18:31:33,396 - src.main - INFO - Processed page 191/440
+2025-08-31 18:31:33,747 - src.main - INFO - Processed page 201/440
+2025-08-31 18:31:34,031 - src.main - INFO - Processed page 211/440
+2025-08-31 18:31:34,279 - src.main - INFO - Processed page 221/440
+2025-08-31 18:31:34,567 - src.main - INFO - Processed page 231/440
+2025-08-31 18:31:34,891 - src.main - INFO - Processed page 241/440
+2025-08-31 18:31:35,103 - src.main - INFO - Processed page 251/440
+2025-08-31 18:31:35,331 - src.main - INFO - Processed page 261/440
+2025-08-31 18:31:35,582 - src.main - INFO - Processed page 271/440
+2025-08-31 18:31:35,843 - src.main - INFO - Processed page 281/440
+2025-08-31 18:31:36,102 - src.main - INFO - Processed page 291/440
+2025-08-31 18:31:36,432 - src.main - INFO - Processed page 301/440
+2025-08-31 18:31:36,679 - src.main - INFO - Processed page 311/440
+2025-08-31 18:31:37,090 - src.main - INFO - Processed page 321/440
+2025-08-31 18:31:37,399 - src.main - INFO - Processed page 331/440
+2025-08-31 18:31:37,735 - src.main - INFO - Processed page 341/440
+2025-08-31 18:31:38,157 - src.main - INFO - Processed page 351/440
+2025-08-31 18:31:38,408 - src.main - INFO - Processed page 361/440
+2025-08-31 18:31:38,683 - src.main - INFO - Processed page 371/440
+2025-08-31 18:31:38,939 - src.main - INFO - Processed page 381/440
+2025-08-31 18:31:39,227 - src.main - INFO - Processed page 391/440
+2025-08-31 18:31:39,672 - src.main - INFO - Processed page 401/440
+2025-08-31 18:31:40,003 - src.main - INFO - Processed page 411/440
+2025-08-31 18:31:40,333 - src.main - INFO - Processed page 421/440
+2025-08-31 18:31:40,658 - src.main - INFO - Processed page 431/440
+2025-08-31 18:31:41,016 - src.main - INFO - Regenerating audio with cloned voice...
+2025-08-31 18:31:41,016 - src.main - INFO - Using audio processing approach for voice cloning...
+2025-08-31 18:31:41,017 - src.main - INFO - Processing original audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 18:31:41,033 - src.main - INFO - Applying voice characteristics...
+2025-08-31 18:31:41,068 - src.main - INFO - Increased volume by 0.4752232723368657dB
+2025-08-31 18:31:41,111 - src.main - INFO - Applied speed/pitch adjustment: 1.00
+2025-08-31 18:31:41,115 - src.main - INFO - Generated cloned audio: output\cloned_voice\cloned_audio_cloned.wav
+2025-08-31 18:31:41,116 - src.main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 18:32:16,669 - main - INFO - PDF to Speech application initialized
+2025-08-31 18:32:33,374 - main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 18:32:33,374 - main - INFO - Extracting text from PDF...
+2025-08-31 18:32:33,524 - main - INFO - PDF has 440 pages
+2025-08-31 18:32:33,526 - main - INFO - Processed page 1/440
+2025-08-31 18:32:33,666 - main - INFO - Processed page 11/440
+2025-08-31 18:32:34,169 - main - INFO - Processed page 21/440
+2025-08-31 18:32:34,737 - main - INFO - Processed page 31/440
+2025-08-31 18:32:35,197 - main - INFO - Processed page 41/440
+2025-08-31 18:32:35,729 - main - INFO - Processed page 51/440
+2025-08-31 18:32:36,082 - main - INFO - Processed page 61/440
+2025-08-31 18:32:36,383 - main - INFO - Processed page 71/440
+2025-08-31 18:32:36,871 - main - INFO - Processed page 81/440
+2025-08-31 18:32:37,368 - main - INFO - Processed page 91/440
+2025-08-31 18:32:38,007 - main - INFO - Processed page 101/440
+2025-08-31 18:32:38,490 - main - INFO - Processed page 111/440
+2025-08-31 18:32:39,051 - main - INFO - Processed page 121/440
+2025-08-31 18:32:39,539 - main - INFO - Processed page 131/440
+2025-08-31 18:32:40,158 - main - INFO - Processed page 141/440
+2025-08-31 18:32:40,640 - main - INFO - Processed page 151/440
+2025-08-31 18:32:41,182 - main - INFO - Processed page 161/440
+2025-08-31 18:32:41,646 - main - INFO - Processed page 171/440
+2025-08-31 18:32:42,168 - main - INFO - Processed page 181/440
+2025-08-31 18:32:42,492 - main - INFO - Processed page 191/440
+2025-08-31 18:32:42,806 - main - INFO - Processed page 201/440
+2025-08-31 18:32:43,073 - main - INFO - Processed page 211/440
+2025-08-31 18:32:43,312 - main - INFO - Processed page 221/440
+2025-08-31 18:32:43,579 - main - INFO - Processed page 231/440
+2025-08-31 18:32:43,898 - main - INFO - Processed page 241/440
+2025-08-31 18:32:44,069 - main - INFO - Processed page 251/440
+2025-08-31 18:32:44,285 - main - INFO - Processed page 261/440
+2025-08-31 18:32:44,514 - main - INFO - Processed page 271/440
+2025-08-31 18:32:44,760 - main - INFO - Processed page 281/440
+2025-08-31 18:32:45,005 - main - INFO - Processed page 291/440
+2025-08-31 18:32:45,283 - main - INFO - Processed page 301/440
+2025-08-31 18:32:45,504 - main - INFO - Processed page 311/440
+2025-08-31 18:32:45,854 - main - INFO - Processed page 321/440
+2025-08-31 18:32:46,151 - main - INFO - Processed page 331/440
+2025-08-31 18:32:46,492 - main - INFO - Processed page 341/440
+2025-08-31 18:32:46,842 - main - INFO - Processed page 351/440
+2025-08-31 18:32:47,068 - main - INFO - Processed page 361/440
+2025-08-31 18:32:47,317 - main - INFO - Processed page 371/440
+2025-08-31 18:32:47,547 - main - INFO - Processed page 381/440
+2025-08-31 18:32:47,813 - main - INFO - Processed page 391/440
+2025-08-31 18:32:48,220 - main - INFO - Processed page 401/440
+2025-08-31 18:32:48,506 - main - INFO - Processed page 411/440
+2025-08-31 18:32:48,793 - main - INFO - Processed page 421/440
+2025-08-31 18:32:49,073 - main - INFO - Processed page 431/440
+2025-08-31 18:32:49,419 - main - INFO - Extracted 737969 characters from PDF
+2025-08-31 18:32:49,419 - main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 18:33:04,742 - main - INFO - Initializing Coqui TTS model...
+2025-08-31 18:33:05,681 - main - INFO - Converting 3 text chunks to speech (max 10,000 chars)...
+2025-08-31 18:33:05,681 - main - INFO - Processing 3 chunks to generate audio from first 10,000 characters
+2025-08-31 18:33:05,681 - main - INFO - Converting chunk 1/3...
+2025-08-31 18:33:41,066 - main - INFO - Converting chunk 2/3...
+2025-08-31 18:34:11,016 - main - INFO - Converting chunk 3/3...
+2025-08-31 18:34:14,061 - main - INFO - Combining 3 audio segments...
+2025-08-31 18:34:14,062 - main - INFO - Adding segment 1/3
+2025-08-31 18:34:14,073 - main - INFO - Adding segment 2/3
+2025-08-31 18:34:14,083 - main - INFO - Adding segment 3/3
+2025-08-31 18:34:14,096 - main - INFO - Combined audio saved: output\default_voice\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 18:34:14,098 - main - INFO - Generated combined audio file: output\default_voice\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 18:34:14,101 - main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 18:34:43,138 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:34:43,138 - main - INFO - Analyzing your voice sample...
+2025-08-31 18:34:43,175 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:34:43,175 - main - INFO - Extracting voice characteristics...
+2025-08-31 18:34:43,176 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 18:34:43,176 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 18:34:43,176 - main - INFO - Using audio processing approach for voice cloning...
+2025-08-31 18:34:43,176 - main - INFO - Processing original audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 18:34:43,205 - main - ERROR - Could not load speaker sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:34:43,206 - main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 18:41:52,719 - main - INFO - PDF to Speech application initialized
+2025-08-31 18:42:16,889 - main - INFO - PDF to Speech application initialized
+2025-08-31 18:42:32,642 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:42:32,643 - main - INFO - Analyzing your voice sample...
+2025-08-31 18:42:32,682 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:42:32,682 - main - INFO - Extracting voice characteristics...
+2025-08-31 18:42:32,683 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 18:42:32,683 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 18:42:32,683 - main - INFO - Using audio processing approach for voice cloning...
+2025-08-31 18:42:32,684 - main - INFO - Processing original audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 18:42:32,701 - main - ERROR - Could not load speaker sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:42:32,702 - main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 18:44:24,552 - main - INFO - PDF to Speech application initialized
+2025-08-31 18:44:39,251 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:44:39,252 - main - INFO - Analyzing your voice sample...
+2025-08-31 18:44:39,277 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:44:39,278 - main - INFO - Extracting voice characteristics...
+2025-08-31 18:44:39,278 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 18:44:39,278 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 18:44:39,279 - main - INFO - Using audio processing approach for voice cloning...
+2025-08-31 18:44:39,279 - main - INFO - Processing original audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 18:44:39,298 - main - ERROR - Could not load speaker sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:44:39,299 - main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 18:45:10,275 - main - INFO - PDF to Speech application initialized
+2025-08-31 18:45:23,572 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:45:23,573 - main - INFO - Analyzing your voice sample...
+2025-08-31 18:45:23,594 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:45:23,594 - main - INFO - Extracting voice characteristics...
+2025-08-31 18:45:23,595 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 18:45:23,595 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 18:45:23,595 - main - INFO - Using audio processing approach for voice cloning...
+2025-08-31 18:45:23,595 - main - INFO - Processing original audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 18:45:23,616 - main - ERROR - Could not load speaker sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:45:23,617 - main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 18:45:31,522 - main - INFO - PDF to Speech application initialized
+2025-08-31 18:45:44,808 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:45:44,809 - main - INFO - Analyzing your voice sample...
+2025-08-31 18:45:44,835 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:45:44,835 - main - INFO - Extracting voice characteristics...
+2025-08-31 18:45:44,836 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 18:45:44,836 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 18:45:44,836 - main - INFO - Using audio processing approach for voice cloning...
+2025-08-31 18:45:44,836 - main - INFO - Processing original audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 18:45:44,855 - main - ERROR - Could not load speaker sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:45:44,856 - main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 18:46:29,602 - main - INFO - PDF to Speech application initialized
+2025-08-31 18:46:39,973 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:46:39,974 - main - INFO - Analyzing your voice sample...
+2025-08-31 18:46:39,998 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:46:39,998 - main - INFO - Extracting voice characteristics...
+2025-08-31 18:46:39,999 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 18:46:39,999 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 18:46:39,999 - main - INFO - Using audio processing approach for voice cloning...
+2025-08-31 18:46:39,999 - main - INFO - Processing original audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 18:46:40,020 - main - ERROR - Could not load speaker sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:46:40,021 - main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 18:48:37,864 - main - INFO - PDF to Speech application initialized
+2025-08-31 18:49:09,053 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:49:09,054 - main - INFO - Analyzing your voice sample...
+2025-08-31 18:49:09,075 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:49:09,076 - main - INFO - Extracting voice characteristics...
+2025-08-31 18:49:09,077 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 18:49:09,077 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 18:49:09,077 - main - INFO - Using audio processing approach for voice cloning...
+2025-08-31 18:49:09,077 - main - INFO - Processing original audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 18:49:09,084 - main - INFO - Applying voice characteristics...
+2025-08-31 18:49:09,168 - main - INFO - Applied basic voice modifications
+2025-08-31 18:49:09,171 - main - INFO - Generated cloned audio: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 18:49:09,173 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 18:54:35,050 - main - INFO - PDF to Speech application initialized
+2025-08-31 18:54:49,836 - main - INFO - PDF to Speech application initialized
+2025-08-31 18:54:49,836 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:54:49,837 - main - INFO - Analyzing your voice sample...
+2025-08-31 18:54:49,837 - main - INFO - Extracting voice characteristics...
+2025-08-31 18:54:49,838 - main - INFO - Found corresponding PDF: data\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn.pdf
+2025-08-31 18:54:49,964 - main - INFO - PDF has 440 pages
+2025-08-31 18:54:49,966 - main - INFO - Processed page 1/440
+2025-08-31 18:54:50,065 - main - INFO - Processed page 11/440
+2025-08-31 18:54:50,459 - main - INFO - Processed page 21/440
+2025-08-31 18:54:50,814 - main - INFO - Processed page 31/440
+2025-08-31 18:54:51,102 - main - INFO - Processed page 41/440
+2025-08-31 18:54:51,406 - main - INFO - Processed page 51/440
+2025-08-31 18:54:51,635 - main - INFO - Processed page 61/440
+2025-08-31 18:54:51,854 - main - INFO - Processed page 71/440
+2025-08-31 18:54:52,199 - main - INFO - Processed page 81/440
+2025-08-31 18:54:52,482 - main - INFO - Processed page 91/440
+2025-08-31 18:54:52,864 - main - INFO - Processed page 101/440
+2025-08-31 18:54:53,161 - main - INFO - Processed page 111/440
+2025-08-31 18:54:53,496 - main - INFO - Processed page 121/440
+2025-08-31 18:54:53,781 - main - INFO - Processed page 131/440
+2025-08-31 18:54:54,151 - main - INFO - Processed page 141/440
+2025-08-31 18:54:54,459 - main - INFO - Processed page 151/440
+2025-08-31 18:54:54,784 - main - INFO - Processed page 161/440
+2025-08-31 18:54:55,058 - main - INFO - Processed page 171/440
+2025-08-31 18:54:55,370 - main - INFO - Processed page 181/440
+2025-08-31 18:54:55,745 - main - INFO - Processed page 191/440
+2025-08-31 18:54:56,114 - main - INFO - Processed page 201/440
+2025-08-31 18:54:56,405 - main - INFO - Processed page 211/440
+2025-08-31 18:54:56,670 - main - INFO - Processed page 221/440
+2025-08-31 18:54:56,982 - main - INFO - Processed page 231/440
+2025-08-31 18:54:57,318 - main - INFO - Processed page 241/440
+2025-08-31 18:54:57,534 - main - INFO - Processed page 251/440
+2025-08-31 18:54:57,784 - main - INFO - Processed page 261/440
+2025-08-31 18:54:58,062 - main - INFO - Processed page 271/440
+2025-08-31 18:54:58,330 - main - INFO - Processed page 281/440
+2025-08-31 18:54:58,604 - main - INFO - Processed page 291/440
+2025-08-31 18:54:58,913 - main - INFO - Processed page 301/440
+2025-08-31 18:54:59,164 - main - INFO - Processed page 311/440
+2025-08-31 18:54:59,575 - main - INFO - Processed page 321/440
+2025-08-31 18:54:59,902 - main - INFO - Processed page 331/440
+2025-08-31 18:55:00,277 - main - INFO - Processed page 341/440
+2025-08-31 18:55:00,683 - main - INFO - Processed page 351/440
+2025-08-31 18:55:00,958 - main - INFO - Processed page 361/440
+2025-08-31 18:55:01,247 - main - INFO - Processed page 371/440
+2025-08-31 18:55:01,522 - main - INFO - Processed page 381/440
+2025-08-31 18:55:01,825 - main - INFO - Processed page 391/440
+2025-08-31 18:55:02,271 - main - INFO - Processed page 401/440
+2025-08-31 18:55:02,605 - main - INFO - Processed page 411/440
+2025-08-31 18:55:02,922 - main - INFO - Processed page 421/440
+2025-08-31 18:55:03,247 - main - INFO - Processed page 431/440
+2025-08-31 18:55:03,622 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 18:55:03,623 - main - INFO - Analyzing and cloning male voice characteristics...
+2025-08-31 18:55:03,623 - main - INFO - Processing original audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 18:55:03,628 - main - INFO - Converting to male voice characteristics...
+2025-08-31 18:55:03,790 - main - INFO - Applied male voice transformations: lower pitch, deeper tone, adjusted speed
+2025-08-31 18:55:03,794 - main - INFO - Generated male voice cloned audio: output\cloned_voice\cloned_audio_cloned.wav
+2025-08-31 18:55:03,796 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 18:59:08,259 - main - INFO - PDF to Speech application initialized
+2025-08-31 18:59:23,431 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 18:59:23,432 - main - INFO - Analyzing your voice sample...
+2025-08-31 18:59:23,460 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 18:59:23,460 - main - INFO - Extracting voice characteristics...
+2025-08-31 18:59:23,461 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 18:59:23,461 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 18:59:23,461 - main - INFO - Analyzing and cloning male voice characteristics...
+2025-08-31 18:59:23,463 - main - INFO - Processing original audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 18:59:23,474 - main - INFO - Converting to male voice characteristics...
+2025-08-31 18:59:23,733 - main - INFO - Applied male voice transformations: lower pitch, deeper tone, adjusted speed
+2025-08-31 18:59:23,738 - main - INFO - Generated male voice cloned audio: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 18:59:23,741 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 19:01:29,391 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:01:41,012 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 19:01:41,013 - main - INFO - Analyzing your voice sample...
+2025-08-31 19:01:41,037 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 19:01:41,037 - main - INFO - Extracting voice characteristics...
+2025-08-31 19:01:41,039 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 19:01:41,039 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 19:01:41,039 - main - INFO - Analyzing and cloning male voice characteristics...
+2025-08-31 19:01:41,039 - main - INFO - Processing original audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 19:01:41,046 - main - INFO - Converting to male voice characteristics...
+2025-08-31 19:01:41,221 - main - INFO - Applied male voice transformations: lower pitch, deeper tone, adjusted speed
+2025-08-31 19:01:41,224 - main - INFO - Generated male voice cloned audio: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 19:01:41,226 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 19:08:19,915 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:08:30,120 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 19:08:30,121 - main - INFO - Analyzing your voice sample...
+2025-08-31 19:08:30,152 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 19:08:30,152 - main - INFO - Extracting voice characteristics...
+2025-08-31 19:08:30,153 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 19:08:30,153 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 19:08:30,153 - main - INFO - Analyzing and cloning male voice characteristics...
+2025-08-31 19:08:30,154 - main - INFO - Processing original audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 19:08:30,168 - main - INFO - Converting to male voice characteristics...
+2025-08-31 19:08:55,339 - main - INFO - Applied ENHANCED male voice cloning: optimal pitch, FASTER speech, rich harmonics, professional compression
+2025-08-31 19:08:55,342 - main - INFO - Generated male voice cloned audio: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 19:08:55,345 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 19:16:48,722 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:17:02,521 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 19:17:02,522 - main - INFO - Analyzing your voice sample...
+2025-08-31 19:17:02,553 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 19:17:02,554 - main - INFO - Extracting voice characteristics...
+2025-08-31 19:17:02,554 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 19:17:02,554 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 19:17:02,554 - main - INFO - Starting ADVANCED voice cloning to match YOUR exact voice...
+2025-08-31 19:17:02,555 - voice_matcher - INFO - Analyzing YOUR voice sample: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_Clone Your Own AI Voice Online – TopMediai.m4a
+2025-08-31 19:17:02,555 - voice_matcher - INFO - Non-WAV format, creating optimized male voice profile
+2025-08-31 19:17:02,565 - voice_matcher - INFO - Applying EXACT voice matching: 120.0Hz, steady style
+2025-08-31 19:17:02,953 - voice_matcher - INFO - Voice matching complete: steady style, 120.0Hz pitch, 1.05x speed
+2025-08-31 19:17:02,959 - voice_matcher - INFO - EXACT voice cloning complete: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 19:17:02,961 - main - INFO - ADVANCED voice cloning successful: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 19:17:02,962 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 19:22:48,174 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:23:03,001 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 19:23:03,001 - main - INFO - Analyzing your voice sample...
+2025-08-31 19:23:03,036 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 19:23:03,036 - main - INFO - Extracting voice characteristics...
+2025-08-31 19:23:03,037 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 19:23:03,037 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 19:23:03,037 - main - INFO - Starting EXACT voice cloning to perfectly match YOUR voice...
+2025-08-31 19:23:03,037 - exact_voice_cloner - INFO - Starting EXACT voice cloning with spectral analysis...
+2025-08-31 19:23:03,037 - exact_voice_cloner - INFO - Extracting EXACT voice features from: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_Clone Your Own AI Voice Online – TopMediai.m4a
+2025-08-31 19:23:04,011 - exact_voice_cloner - ERROR - Voice feature extraction failed: [WinError 2] The system cannot find the file specified
+2025-08-31 19:23:04,024 - exact_voice_cloner - INFO - Applying EXACT voice transformation...
+2025-08-31 19:23:04,356 - exact_voice_cloner - INFO - Applied bass boost: +7.0dB for deeper voice timbre
+2025-08-31 19:23:04,414 - exact_voice_cloner - INFO - Applied volume matching: +4dB for your voice intensity
+2025-08-31 19:23:04,625 - exact_voice_cloner - INFO - EXACT voice transformation complete - should now sound like YOUR voice!
+2025-08-31 19:23:04,632 - exact_voice_cloner - INFO - EXACT voice cloning complete: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 19:23:04,635 - main - INFO - EXACT voice cloning successful - should sound like YOUR voice: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 19:23:04,636 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 19:25:04,148 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:25:21,838 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 19:25:21,838 - main - INFO - Analyzing your voice sample...
+2025-08-31 19:25:21,862 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 19:25:21,863 - main - INFO - Extracting voice characteristics...
+2025-08-31 19:25:21,863 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 19:25:21,864 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 19:25:21,864 - main - INFO - Using IMPROVED voice cloning approach...
+2025-08-31 19:25:21,864 - main - INFO - Processing original audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 19:25:21,868 - main - INFO - Converting to natural male voice...
+2025-08-31 19:25:22,188 - main - INFO - Applied IMPROVED male voice: natural pitch, good speed, clear volume, warm tone
+2025-08-31 19:25:22,193 - main - INFO - Generated IMPROVED male voice: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 19:25:22,195 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 19:29:09,873 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:29:22,974 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 19:29:22,975 - main - INFO - Analyzing your voice sample...
+2025-08-31 19:29:22,998 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 19:29:22,998 - main - INFO - Extracting voice characteristics...
+2025-08-31 19:29:22,999 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 19:29:22,999 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 19:29:22,999 - main - INFO - Analyzing YOUR voice to create personalized clone...
+2025-08-31 19:29:23,000 - main - INFO - Processing TTS audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 19:29:23,005 - main - INFO - Analyzing YOUR voice sample: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_Clone Your Own AI Voice Online – TopMediai.m4a
+2025-08-31 19:29:23,018 - main - WARNING - Cannot load your voice sample, using intelligent defaults
+2025-08-31 19:29:23,020 - main - INFO - Cloning TTS audio to sound like YOUR voice...
+2025-08-31 19:29:23,020 - main - INFO - Applying intelligent male voice conversion...
+2025-08-31 19:29:23,281 - main - INFO - Applied intelligent male voice conversion
+2025-08-31 19:29:23,285 - main - INFO - Voice cloned to match YOUR voice: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 19:29:23,286 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 19:32:15,043 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:36:08,834 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:36:22,378 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 19:36:22,380 - main - INFO - Analyzing your voice sample...
+2025-08-31 19:36:22,411 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 19:36:22,412 - main - INFO - Extracting voice characteristics...
+2025-08-31 19:36:22,412 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 19:36:22,412 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 19:36:22,412 - main - INFO - Analyzing YOUR voice to create personalized clone...
+2025-08-31 19:36:22,413 - main - INFO - Processing TTS audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 19:36:22,419 - main - INFO - Analyzing YOUR voice sample: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_Clone Your Own AI Voice Online – TopMediai.m4a
+2025-08-31 19:36:22,502 - main - WARNING - M4A conversion failed, trying raw load
+2025-08-31 19:36:22,516 - main - WARNING - Could not load voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 19:36:22,516 - main - WARNING - Voice sample too short or invalid for analysis
+2025-08-31 19:36:22,517 - main - INFO - Cloning TTS audio to sound EXACTLY like YOUR voice...
+2025-08-31 19:36:22,517 - main - INFO - Applying intelligent male voice conversion...
+2025-08-31 19:36:22,788 - main - INFO - Applied intelligent male voice conversion
+2025-08-31 19:36:22,794 - main - INFO - Voice cloned to match YOUR voice: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 19:36:22,795 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 19:39:54,655 - main - INFO - Audio converter initialized for M4A support
+2025-08-31 19:39:54,656 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:40:07,666 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 19:40:07,667 - main - INFO - Analyzing your voice sample...
+2025-08-31 19:40:07,695 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 19:40:07,695 - main - INFO - Extracting voice characteristics...
+2025-08-31 19:40:07,697 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 19:40:07,697 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 19:40:07,697 - main - INFO - Analyzing YOUR voice to create personalized clone...
+2025-08-31 19:40:07,698 - main - INFO - Processing TTS audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 19:40:07,705 - main - INFO - Analyzing YOUR voice sample: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_Clone Your Own AI Voice Online – TopMediai.m4a
+2025-08-31 19:40:07,771 - main - WARNING - M4A conversion failed, trying raw load
+2025-08-31 19:40:07,784 - main - WARNING - Could not load voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 19:40:07,785 - main - WARNING - Voice sample too short or invalid for analysis
+2025-08-31 19:40:07,785 - main - INFO - Cloning TTS audio to sound EXACTLY like YOUR voice...
+2025-08-31 19:40:07,785 - main - ERROR - Voice cloning failed: 'PDFToSpeechApp' object has no attribute '_intelligent_male_conversion'
+2025-08-31 19:40:07,787 - main - ERROR - STEP 2 FAILED: Voice cloning failed - using fallback method
+2025-08-31 19:42:02,113 - main - INFO - Audio converter initialized for M4A support
+2025-08-31 19:42:02,115 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:42:24,735 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 19:42:24,736 - main - INFO - Analyzing your voice sample...
+2025-08-31 19:42:24,763 - main - ERROR - Failed to convert voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 19:42:24,763 - main - INFO - Extracting voice characteristics...
+2025-08-31 19:42:24,764 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 19:42:24,764 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 19:42:24,764 - main - INFO - Analyzing YOUR voice to create personalized clone...
+2025-08-31 19:42:24,765 - main - INFO - Processing TTS audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 19:42:24,772 - main - INFO - Analyzing YOUR voice sample: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_Clone Your Own AI Voice Online – TopMediai.m4a
+2025-08-31 19:42:24,826 - main - WARNING - M4A conversion failed, trying raw load
+2025-08-31 19:42:24,837 - main - WARNING - Could not load voice sample: [WinError 2] The system cannot find the file specified
+2025-08-31 19:42:24,837 - main - WARNING - Voice sample too short or invalid for analysis
+2025-08-31 19:42:24,838 - main - INFO - Cloning TTS audio to sound EXACTLY like YOUR voice...
+2025-08-31 19:42:24,838 - main - INFO - Applying ENHANCED intelligent male voice conversion...
+2025-08-31 19:42:25,364 - main - INFO - Applied enhanced intelligent conversion: natural male voice with layered depth
+2025-08-31 19:42:25,368 - main - INFO - Applied enhanced intelligent male voice conversion
+2025-08-31 19:42:25,373 - main - INFO - Voice cloned to match YOUR voice: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 19:42:25,375 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 19:47:25,609 - main - INFO - Audio converter initialized for M4A support
+2025-08-31 19:47:25,612 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:47:30,827 - main - INFO - Audio converter initialized for M4A support
+2025-08-31 19:47:30,829 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:47:33,628 - main - INFO - Audio converter initialized for M4A support
+2025-08-31 19:47:33,629 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:47:52,994 - main - INFO - Audio converter initialized for M4A support
+2025-08-31 19:47:52,996 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:47:55,376 - main - INFO - Audio converter initialized for M4A support
+2025-08-31 19:47:55,377 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:49:34,231 - main - INFO - PDF to Speech application initialized
+2025-08-31 19:51:38,951 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 19:51:38,953 - main - INFO - Analyzing your voice sample...
+2025-08-31 19:51:38,953 - main - INFO - Extracting voice characteristics...
+2025-08-31 19:51:38,953 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 19:51:38,953 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 19:51:38,954 - main - INFO - Analyzing YOUR voice to create personalized clone...
+2025-08-31 19:51:38,954 - main - INFO - Processing TTS audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 19:51:38,958 - main - INFO - Analyzing YOUR voice sample: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_Clone-Your-Own-AI-Voice-Online-–-TopMediai.wav
+2025-08-31 19:51:46,848 - main - INFO - YOUR voice profile: higher_male, normal speaker, pitch_ratio=0.85
+2025-08-31 19:51:46,849 - main - INFO - YOUR voice analyzed: {'duration': 57.81333333333333, 'max_volume': -0.5053327266769416, 'rms_volume': 5730, 'frame_rate': 48000, 'intensity_level': 'strong', 'volume_boost': 2, 'pitch_ratio': 0.85, 'your_voice_type': 'higher_male', 'speed_ratio': 1.05, 'speech_style': 'normal'}
+2025-08-31 19:51:46,849 - main - INFO - Cloning TTS audio to sound like YOUR voice...
+2025-08-31 19:51:46,849 - main - INFO - Applying YOUR voice patterns: higher_male, normal style
+2025-08-31 19:51:47,127 - main - INFO - Applied YOUR voice patterns: higher_male voice, normal style
+2025-08-31 19:51:47,127 - main - INFO - Applied YOUR specific voice patterns
+2025-08-31 19:51:47,133 - main - INFO - Voice cloned to match YOUR voice: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 19:51:47,134 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated
+2025-08-31 19:53:10,771 - main - INFO - PDF to Speech application initialized
+2025-08-31 22:01:32,726 - src.main - INFO - PDF to Speech application initialized
+2025-08-31 22:01:32,727 - src.main - INFO - Processing PDF: data\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn.pdf
+2025-08-31 22:02:00,239 - main - INFO - PDF to Speech application initialized
+2025-08-31 22:03:59,214 - main - INFO - PDF to Speech application initialized
+2025-08-31 22:04:30,908 - main - INFO - STEP 1: Converting PDF to audio...
+2025-08-31 22:04:30,908 - main - INFO - Extracting text from PDF...
+2025-08-31 22:04:31,464 - main - INFO - PDF has 440 pages
+2025-08-31 22:04:31,465 - main - INFO - Processed page 1/440
+2025-08-31 22:04:31,657 - main - INFO - Processed page 11/440
+2025-08-31 22:04:32,407 - main - INFO - Processed page 21/440
+2025-08-31 22:04:33,211 - main - INFO - Processed page 31/440
+2025-08-31 22:04:33,826 - main - INFO - Processed page 41/440
+2025-08-31 22:04:34,510 - main - INFO - Processed page 51/440
+2025-08-31 22:04:35,085 - main - INFO - Processed page 61/440
+2025-08-31 22:04:35,464 - main - INFO - Processed page 71/440
+2025-08-31 22:04:36,089 - main - INFO - Processed page 81/440
+2025-08-31 22:04:36,675 - main - INFO - Processed page 91/440
+2025-08-31 22:04:37,537 - main - INFO - Processed page 101/440
+2025-08-31 22:04:38,144 - main - INFO - Processed page 111/440
+2025-08-31 22:04:38,719 - main - INFO - Processed page 121/440
+2025-08-31 22:04:39,311 - main - INFO - Processed page 131/440
+2025-08-31 22:04:40,043 - main - INFO - Processed page 141/440
+2025-08-31 22:04:40,391 - main - INFO - Processed page 151/440
+2025-08-31 22:04:40,772 - main - INFO - Processed page 161/440
+2025-08-31 22:04:41,058 - main - INFO - Processed page 171/440
+2025-08-31 22:04:41,419 - main - INFO - Processed page 181/440
+2025-08-31 22:04:41,803 - main - INFO - Processed page 191/440
+2025-08-31 22:04:42,179 - main - INFO - Processed page 201/440
+2025-08-31 22:04:42,532 - main - INFO - Processed page 211/440
+2025-08-31 22:04:42,848 - main - INFO - Processed page 221/440
+2025-08-31 22:04:43,178 - main - INFO - Processed page 231/440
+2025-08-31 22:04:43,576 - main - INFO - Processed page 241/440
+2025-08-31 22:04:43,787 - main - INFO - Processed page 251/440
+2025-08-31 22:04:44,061 - main - INFO - Processed page 261/440
+2025-08-31 22:04:44,347 - main - INFO - Processed page 271/440
+2025-08-31 22:04:44,624 - main - INFO - Processed page 281/440
+2025-08-31 22:04:44,926 - main - INFO - Processed page 291/440
+2025-08-31 22:04:45,276 - main - INFO - Processed page 301/440
+2025-08-31 22:04:45,546 - main - INFO - Processed page 311/440
+2025-08-31 22:04:45,966 - main - INFO - Processed page 321/440
+2025-08-31 22:04:46,388 - main - INFO - Processed page 331/440
+2025-08-31 22:04:46,833 - main - INFO - Processed page 341/440
+2025-08-31 22:04:47,256 - main - INFO - Processed page 351/440
+2025-08-31 22:04:47,541 - main - INFO - Processed page 361/440
+2025-08-31 22:04:47,884 - main - INFO - Processed page 371/440
+2025-08-31 22:04:48,205 - main - INFO - Processed page 381/440
+2025-08-31 22:04:48,589 - main - INFO - Processed page 391/440
+2025-08-31 22:04:49,144 - main - INFO - Processed page 401/440
+2025-08-31 22:04:49,520 - main - INFO - Processed page 411/440
+2025-08-31 22:04:49,902 - main - INFO - Processed page 421/440
+2025-08-31 22:04:50,256 - main - INFO - Processed page 431/440
+2025-08-31 22:04:50,717 - main - INFO - Extracted 737969 characters from PDF
+2025-08-31 22:04:50,718 - main - INFO - Converting text to speech with Coqui TTS...
+2025-08-31 22:05:28,955 - main - INFO - Initializing Coqui TTS model...
+2025-08-31 22:05:30,414 - main - INFO - Converting 3 text chunks to speech (max 10,000 chars)...
+2025-08-31 22:05:30,414 - main - INFO - Processing 3 chunks to generate audio from first 10,000 characters
+2025-08-31 22:05:30,414 - main - INFO - Converting chunk 1/3...
+2025-08-31 22:05:58,849 - main - INFO - Converting chunk 2/3...
+2025-08-31 22:07:08,844 - main - INFO - Converting chunk 3/3...
+2025-08-31 22:07:11,968 - main - INFO - Combining 3 audio segments...
+2025-08-31 22:07:11,968 - main - INFO - Adding segment 1/3
+2025-08-31 22:07:11,979 - main - INFO - Adding segment 2/3
+2025-08-31 22:07:11,990 - main - INFO - Adding segment 3/3
+2025-08-31 22:07:12,006 - main - INFO - Combined audio saved: output\default_voice\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 22:07:12,009 - main - INFO - Generated combined audio file: output\default_voice\uploaded_max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 22:07:12,012 - main - INFO - STEP 1 COMPLETE: PDF converted to audio
+2025-08-31 22:07:57,434 - main - INFO - STEP 2: Cloning voice and regenerating audio...
+2025-08-31 22:07:57,436 - main - INFO - Analyzing your voice sample...
+2025-08-31 22:07:58,821 - main - INFO - Converted .m4a to WAV: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_Clone Your Own AI Voice Online – TopMediai_converted.wav
+2025-08-31 22:07:58,822 - main - INFO - Extracting voice characteristics...
+2025-08-31 22:07:58,822 - main - WARNING - Could not find original PDF, using sample text
+2025-08-31 22:07:58,822 - main - INFO - Regenerating audio with cloned voice...
+2025-08-31 22:07:58,822 - main - INFO - Analyzing YOUR voice to create personalized clone...
+2025-08-31 22:07:58,823 - main - INFO - Processing TTS audio: output\default_voice\max-tegmark-life-30-being-human-in-the-age-of-artificial-intelligence-alfred-a-knopf-2017-aTvn_audio.wav
+2025-08-31 22:07:58,838 - main - INFO - Analyzing YOUR voice sample: C:\Users\asfan\AppData\Local\Temp\pdf_to_speech\voice_Clone Your Own AI Voice Online – TopMediai_converted.wav
+2025-08-31 22:08:09,315 - main - INFO - YOUR voice profile: higher_male, normal speaker, pitch_ratio=0.85
+2025-08-31 22:08:09,315 - main - INFO - YOUR voice analyzed: {'duration': 57.81333333333333, 'max_volume': -0.5117970108716834, 'rms_volume': 5725, 'frame_rate': 22050, 'intensity_level': 'strong', 'volume_boost': 2, 'pitch_ratio': 0.85, 'your_voice_type': 'higher_male', 'speed_ratio': 1.05, 'speech_style': 'normal'}
+2025-08-31 22:08:09,316 - main - INFO - Cloning TTS audio to sound like YOUR voice...
+2025-08-31 22:08:09,316 - main - INFO - Applying YOUR voice patterns: higher_male, normal style
+2025-08-31 22:08:09,629 - main - INFO - Applied YOUR voice patterns: higher_male voice, normal style
+2025-08-31 22:08:09,630 - main - INFO - Applied YOUR specific voice patterns
+2025-08-31 22:08:09,643 - main - INFO - Voice cloned to match YOUR voice: output\cloned_voice\my_audiobook_cloned.wav
+2025-08-31 22:08:09,643 - main - INFO - STEP 2 COMPLETE: Voice cloned and audio regenerated

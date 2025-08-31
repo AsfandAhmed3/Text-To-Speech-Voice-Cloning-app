@@ -1,0 +1,31 @@
+# Core PDF and text processing
+PyPDF2>=3.0.0
+pdfplumber>=0.7.0
+python-dotenv>=1.0.0
+
+# Coqui TTS (Primary voice cloning solution)
+TTS>=0.22.0
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Audio processing
+soundfile>=0.12.0
+librosa>=0.10.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Alternative TTS engines
+pyttsx3>=2.90
+
+# Optional: ElevenLabs (if API key available)
+elevenlabs>=0.2.0
+
+# Web interfaces
+gradio>=3.40.0
+streamlit>=1.25.0
+
+# Utilities
+requests>=2.31.0
+transformers>=4.30.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
